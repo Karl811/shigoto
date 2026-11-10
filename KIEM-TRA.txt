@@ -1,0 +1,4 @@
+CD49 source SHA256: 7a5612c153ea256fe9bcb8b349fac4dc4c65c46e5644d0056f5bc05b5dfb25ea
+All 2 original inline course scripts preserved verbatim.
+Course body preserved verbatim: true
+Only PWA metadata and external shell links added to head.

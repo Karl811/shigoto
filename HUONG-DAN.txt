@@ -1,0 +1,34 @@
+CAREER DESIGN CD49 — BỘ ĐƯA LÊN GITHUB PAGES
+
+1. Tạo repository GitHub (ví dụ: career-design). Với tài khoản GitHub miễn phí thông thường, chọn Public để dùng Pages.
+2. Giải nén bộ ZIP. Trong repository, chọn Add file → Upload files. Kéo toàn bộ NỘI DUNG thư mục CD49-GitHub-PWA vào đó, gồm cả thư mục icons. index.html phải nằm ngay ở gốc repository, không nằm thêm trong một thư mục CD49-GitHub-PWA. Commit changes.
+3. Vào Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: main → /(root) → Save.
+4. Chờ GitHub triển khai xong. Mở đường link HTTPS do mục Pages hiển thị, thường có dạng https://TEN-TAI-KHOAN.github.io/career-design/ . Gửi link này cho học viên.
+Không upload riêng file ZIP lên repository: GitHub không tự giải nén. Không cần chạy phần mềm, npm hay build.
+File .nojekyll có sẵn trong ZIP; nếu giao diện upload bỏ qua file ẩn, website này vẫn dùng được vì không có tên tài nguyên đặc biệt cần nó.
+
+CÀI ỨNG DỤNG
+- Android / Chrome hoặc trình duyệt hỗ trợ: mở link; popup hướng dẫn hiện một lần. Khi trình duyệt cho phép, nút Cài ứng dụng sẽ gọi hộp cài đặt chính thức. Nếu chưa có, dùng menu → Cài đặt ứng dụng / Thêm vào màn hình chính.
+- iPhone/iPad: Safari → Chia sẻ → Thêm vào Màn hình chính → bật Mở dưới dạng ứng dụng web nếu có → Thêm. Nếu trình duyệt mặc định không có tùy chọn, mở link bằng Safari.
+- Không thể tự động cài ứng dụng mà không có thao tác xác nhận của học viên. Tùy trình duyệt, tên menu và khả năng cài có thể khác nhau.
+- Popup không hiện khi đã mở từ biểu tượng ứng dụng. Đóng hoặc chọn Để sau sẽ ghi nhớ trên trình duyệt đó. Hướng dẫn gốc trong khóa học vẫn giữ nguyên để xem lại.
+
+MÀU THANH TRẠNG THÁI
+- Dùng #F5F7FD, đúng màu nền xám sáng trong giao diện CD49 đang áp dụng.
+- Android: theme-color và manifest dùng cùng màu này.
+- iPhone: dùng thanh trạng thái trong suốt và tô vùng nền phía sau bằng #F5F7FD, giữ khoảng an toàn cho giờ/pin. Hệ điều hành quyết định cách hiển thị cuối cùng; website không thể bắt buộc mọi phiên bản Safari/iOS hiển thị màu chính xác giống nhau.
+
+DỮ LIỆU VÀ NGOẠI TUYẾN
+- Mã bài học, câu hỏi, đáp án, nội dung, cách chấm và cách lưu bài của CD49 được giữ nguyên. CD49.html gốc không bị sửa.
+- Sau lần truy cập trực tuyến và cài bộ nhớ đệm thành công, phần khóa học nằm trong HTML có thể mở ngoại tuyến. Video, website liên kết, Google Fonts, công cụ AI và thư viện xuất ảnh từ CDN vẫn cần Internet. Đây không phải bộ tải video học ngoại tuyến.
+- Bài làm vẫn lưu trên thiết bị theo cơ chế gốc, không đồng bộ tài khoản hay máy chủ. Trên iPhone, dữ liệu của Safari và ứng dụng có thể riêng. Nên cài trước khi bắt đầu học và dùng tính năng sao lưu có sẵn trong khóa học.
+- Giữ nguyên tên repository và địa chỉ khi dùng lâu dài để tránh đổi nơi lưu dữ liệu.
+- Khi cập nhật: thay các file, đổi VERSION trong sw.js, đóng tất cả cửa sổ ứng dụng rồi mở lại để phiên bản bộ nhớ đệm mới được kích hoạt. Không có thao tác xóa dữ liệu bài làm trong bộ PWA.
+
+KIỂM TRA SAU KHI GITHUB TRIỂN KHAI
+Mở link thật trên điện thoại → cài → mở từ biểu tượng → kiểm tra thanh giờ/pin, bài học, lưu bài và mở lại. Sau một lần mở có Internet, thử bật chế độ máy bay rồi mở lại phần HTML. Cài đặt và màu thanh trạng thái cần được xác nhận trên thiết bị thật; bộ file mới được kiểm tra mã và đối chiếu với bản gốc, chưa được triển khai lên tài khoản GitHub của bạn.
+
+Nguồn tham khảo:
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable
+https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html
