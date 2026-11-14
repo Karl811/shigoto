@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" fill="none">
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#D7E9FF"/><stop offset="1" stop-color="#F4F8FF"/></linearGradient><linearGradient id="water" x2=".7" y2="1"><stop stop-color="#A4D6F6"/><stop offset="1" stop-color="#5A9DE2"/></linearGradient><g id="flower" fill="#EEF6FF"><circle cx="0" cy="-5" r="4"/><circle cx="5" cy="-1" r="4"/><circle cx="3" cy="5" r="4"/><circle cx="-3" cy="5" r="4"/><circle cx="-5" cy="-1" r="4"/><circle r="2" fill="#85B2EC"/></g></defs>
+<path fill="url(#sky)" d="M0 0h1200v1200H0z"/>
+<g fill="#F8FBFF" opacity=".9"><path d="M69 232c22-35 62-32 78-6 26-56 102-52 117-2 47-20 91 8 100 34H57Z"/><path d="M783 170c15-22 42-24 58-7 17-31 66-24 77 5 36-9 58 9 66 25H773Z"/><path d="M413 354c14-20 41-26 61-8 17-31 59-31 77-1 33-11 58 6 66 22H401Z"/></g>
+<path d="M0 493q158-121 304-30t255-8 288 0 353-26v221H0Z" fill="#C4DBF7"/>
+<path d="M0 560q186-92 355-10t321-5 304-16 220-10v156H0Z" fill="#A7C8F0"/>
+<!-- Small riverside town, everyday Japanese architecture. -->
+<g stroke="#668BBE" stroke-width="4" stroke-linejoin="round"><path fill="#F0F6FF" d="M683 509h82v98h-82zM775 488h73v119h-73zM859 526h88v81h-88z"/><path fill="#739DD4" d="m669 511 55-35 55 35zM763 490l49-37 49 37zM848 528l56-32 56 32z"/><path d="M698 546h49m44-26h40m-40 19h40m44 15h55"/><path d="M712 572v35m20-35v35m69-40v40m24-40v40m62-29v29m24-29v29"/></g>
+<path d="M0 625q176-43 353-3t354-2 493-8v588H0Z" fill="#BCD7F7"/>
+<path d="M716 591c-159 99-101 162 1 231s144 197-89 378H139c184-121 336-192 363-274s-88-106-58-180 139-119 202-155Z" fill="url(#water)"/>
+<path d="M646 591c-91 45-203 110-221 161-29 81 73 108 55 173-24 84-184 164-380 275h85c178-107 323-182 339-267 15-82-93-108-57-173 27-49 125-111 202-169Z" fill="#E5EFFF"/>
+<path d="M716 591c-124 96-87 154 25 229s135 204-58 380h92c170-181 141-303 15-393-108-78-125-124-57-216Z" fill="#ECF4FF"/>
+<!-- Low arch footbridge. -->
+<path d="M435 741q112-126 253-58l-4 16q-140-62-245 60Z" fill="#376CB2"/>
+<path d="M436 728q104-118 251-59M448 708l3 27m30-55 5 24m30-45 6 24m31-37 5 22m31-26 3 21m31-20v19m31-11-3 18m30-7-5 17" stroke="#5989C9" stroke-width="6" stroke-linecap="round"/>
+<g stroke="#CCE9FF" stroke-width="4" stroke-linecap="round" opacity=".8"><path d="M549 800h53m-82 44h43m29 38h70m-156 89h58m136 82h76m-279 68h84m97-204h39M564 1118h60"/></g>
+<g transform="translate(590 826)"><path d="m-24 0 58-3-13 13h-30Z" fill="#3569A8"/><path d="m-2-32 19 26H-2Z" fill="#F3F8FF"/><path d="M-3-33v32" stroke="#517EB7" stroke-width="3"/></g>
+<!-- Blue blossom trees frame the river without enclosing the character. -->
+<path d="M238 1044q27-175-6-333m9 112-88-97m93 35 66-99M949 1060q-28-190 12-377m-21 116 93-95m-83 38-67-88" stroke="#527FB9" stroke-width="20" stroke-linecap="round"/>
+<g fill="#8BB5EC"><circle cx="173" cy="680" r="84"/><circle cx="279" cy="650" r="91"/><circle cx="207" cy="591" r="77"/><circle cx="121" cy="624" r="62"/><circle cx="991" cy="621" r="92"/><circle cx="902" cy="659" r="72"/><circle cx="1067" cy="693" r="85"/><circle cx="1014" cy="738" r="66"/></g>
+<g fill="#ADCDFA"><circle cx="157" cy="624" r="52"/><circle cx="239" cy="590" r="59"/><circle cx="311" cy="660" r="52"/><circle cx="960" cy="597" r="65"/><circle cx="1056" cy="656" r="55"/><circle cx="914" cy="684" r="43"/></g>
+<g><use href="#flower" transform="translate(224 629) scale(1.4)"/><use href="#flower" transform="translate(299 685)"/><use href="#flower" transform="translate(158 694)"/><use href="#flower" transform="translate(179 590)"/><use href="#flower" transform="translate(966 648) scale(1.3)"/><use href="#flower" transform="translate(1053 707)"/><use href="#flower" transform="translate(911 637)"/><use href="#flower" transform="translate(1005 580)"/></g>
+<path d="M0 1034q209-129 405 30t414-18 381 40v114H0Z" fill="#74A3DE"/>
+<path d="M0 1129q246-151 473-2t727-11v84H0Z" fill="#5686C9"/>
+<g fill="#B9D7FC"><ellipse cx="333" cy="1039" rx="5" ry="13" transform="rotate(-32 333 1039)"/><ellipse cx="848" cy="999" rx="5" ry="12" transform="rotate(36 848 999)"/><ellipse cx="954" cy="1112" rx="5" ry="12" transform="rotate(-50 954 1112)"/><circle cx="307" cy="1134" r="4"/><circle cx="898" cy="1084" r="4"/></g>
+<g stroke="#B1D0F7" stroke-width="5" stroke-linecap="round"><path d="m283 1081 6-17 8 15m598 59 6-21 9 19m-706 8 6-17 7 16M1023 1062l5-17 8 15"/></g>
+</svg>

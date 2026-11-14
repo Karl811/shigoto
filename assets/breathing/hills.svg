@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" fill="none">
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#D6EBFF"/><stop offset="1" stop-color="#F2F8FF"/></linearGradient><g id="pine"><path d="M0 10v112" stroke="#37639E" stroke-width="9"/><path d="m0-33-41 65h24l-41 49h37l-29 30h100L22 81h36L18 32h23Z" fill="#699ADD"/><path d="m0-33-25 65h25V81h27L11 32h15Z" fill="#85B4EE"/></g><g id="sprout" stroke="#BEDBFF" stroke-width="4" stroke-linecap="round"><path d="M0 13V-3m0 13-9-8m9 4 9-9"/></g></defs>
+<path fill="url(#sky)" d="M0 0h1200v1200H0z"/>
+<g fill="#F8FCFF"><path d="M75 279c26-37 63-35 85-4 20-46 82-45 105-7 39-14 69 6 79 27H59Z"/><path d="M859 209c19-27 49-28 65-6 17-37 68-36 83-6 31-9 56 6 63 24H845Z"/><path d="M471 387q37-30 67 2 42-45 83-4 35-7 47 14H454Z" opacity=".7"/></g>
+<!-- Fuji is deliberately off centre; rolling hills and paths carry the composition. -->
+<path d="m345 645 371-318 372 318Z" fill="#AECFF6"/>
+<path d="m588 437 128-110 133 113-52-13-27 29-43-24-37 24-31-26-38 21Z" fill="#F8FCFF"/>
+<path d="m717 460 66 185h116L758 448l-25-9Z" fill="#98BDEB"/>
+<path d="M0 648q152-198 352-25t385-12 463 18v571H0Z" fill="#B6D5F9"/>
+<path d="M0 764q203-166 426-63t383-10 391 31v478H0Z" fill="#8EB8ED"/>
+<path d="M0 850q167-55 362 17t381-40 457-31v404H0Z" fill="#6F9FDB"/>
+<path d="M824 713c-114 72-267 108-202 178s-116 107-250 174-46 96-17 135H119c-94-82 24-145 193-197s238-84 205-126 58-101 279-164Z" fill="#D9EAFF"/>
+<path d="M824 713c-90 69-204 115-150 175s-132 128-239 178-80 104-35 134h-45c-29-39-117-68 17-135s315-104 250-174 88-106 202-178Z" fill="#B5D3F7"/>
+<g stroke="#A3C7F5" stroke-width="9" stroke-linecap="round"><path d="M-30 934q175-74 388 20M837 869q197-87 384-14M822 922q212-84 402-16M-20 1001q143-51 246-14"/></g>
+<!-- Hillside farmhouses and a small field. -->
+<g transform="translate(747 691)"><path d="M0 0h74v48H0Z" fill="#E8F3FF"/><path d="m-10 0 45-30L85 0Z" fill="#4478BA"/><path d="M10 14h13v13H10zm42 0h13v13H52z" fill="#92B8E9"/><path d="M32 25h13v23H32Z" fill="#6695D2"/><path d="M93 15h43v33H93Z" fill="#C8DFFC"/><path d="m88 15 27-22 27 22Z" fill="#628DC7"/></g>
+<path d="m752 760 114-6 25 24-123 12Z" fill="#AFCFF6"/><g stroke="#80ACE3" stroke-width="3"><path d="m772 759 14 27m9-28 14 27m9-28 14 25m9-27 14 25m7-26 14 25"/></g>
+<g><use href="#pine" transform="translate(212 677) scale(1.3)"/><use href="#pine" transform="translate(315 773) scale(.9)"/><use href="#pine" transform="translate(1004 774) scale(1.2)"/><use href="#pine" transform="translate(924 844) scale(.7)"/></g>
+<path d="M0 1118q155-125 366-4t378-13 456 7v92H0Z" fill="#4C7DBD"/>
+<g fill="#A8CCF9"><ellipse cx="173" cy="1038" rx="14" ry="6" transform="rotate(20 173 1038)"/><ellipse cx="935" cy="1022" rx="18" ry="7" transform="rotate(-15 935 1022)"/><ellipse cx="1024" cy="1118" rx="12" ry="5"/><ellipse cx="315" cy="1159" rx="18" ry="7"/></g>
+<g><use href="#sprout" transform="translate(276 1018)"/><use href="#sprout" transform="translate(917 1092) scale(1.3)"/><use href="#sprout" transform="translate(1088 1040)"/><use href="#sprout" transform="translate(179 1162) scale(1.3)"/></g>
+<g fill="#D6E9FF"><circle cx="235" cy="1048" r="4"/><circle cx="249" cy="1054" r="3"/><circle cx="870" cy="1046" r="4"/><circle cx="1046" cy="1164" r="4"/></g>
+<g stroke="#7DA5D9" stroke-width="4" stroke-linecap="round"><path d="M339 489q9-12 18 0 9-12 18 0M377 469q7-9 14 0 7-9 14 0"/></g>
+</svg>

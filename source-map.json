@@ -1,0 +1,138 @@
+{
+  "build": "M3.3.20-5S.1",
+  "canonical_sources": {
+    "letters.js": "scripts/core.js",
+    "app.js": "scripts/core.js",
+    "m3-ui.js": "scripts/interface.js",
+    "m3-flows.js": "scripts/interface.js",
+    "m3-cabinet.js": "scripts/interface.js",
+    "m3-final.js": "scripts/interface.js",
+    "release-compat.js": "scripts/interface.js",
+    "routine-flow.js": "scripts/habits.js",
+    "routine-growth.js": "scripts/habits.js",
+    "routine-templates.js": "scripts/habits.js",
+    "routine-garden.js": "scripts/habits.js",
+    "routine-card-design.js": "scripts/habits.js",
+    "routine-navigation.js": "scripts/interaction.js",
+    "routine-touch.js": "scripts/interaction.js",
+    "routine-checkin.js": "scripts/interaction.js",
+    "routine-refinements.js": "scripts/interaction.js",
+    "routine-evening.js": "scripts/interaction.js",
+    "routine-pomodoro.js": "scripts/extensions.js",
+    "routine-play.js": "scripts/extensions.js",
+    "routine-sheets.js": "scripts/extensions.js",
+    "curriculum14.js": "scripts/extensions.js",
+    "refinement16.js": "scripts/extensions.js",
+    "breath18.js": "scripts/extensions.js",
+    "assets.css": "styles/base.css",
+    "legacy.css": "styles/base.css",
+    "m3.css": "styles/components.css",
+    "m3-flows.css": "styles/components.css",
+    "m3-cabinet.css": "styles/components.css",
+    "m3-final.css": "styles/components.css",
+    "release.css": "styles/components.css",
+    "mobile-refinement.css": "styles/components.css",
+    "routine-flow.css": "styles/habits.css",
+    "routine-growth.css": "styles/habits.css",
+    "routine-garden.css": "styles/habits.css",
+    "routine-card-design.css": "styles/habits.css",
+    "routine-navigation.css": "styles/habits.css",
+    "routine-touch.css": "styles/habits.css",
+    "routine-checkin.css": "styles/habits.css",
+    "routine-refinements.css": "styles/habits.css",
+    "routine-evening.css": "styles/habits.css",
+    "routine-play.css": "styles/habits.css",
+    "routine-sheets.css": "styles/habits.css",
+    "refinement16.css": "styles/extensions.css",
+    "breath18.css": "styles/extensions.css"
+  },
+  "removed_superseded_code": [
+    {
+      "file": "app.js",
+      "function": "drawHow"
+    },
+    {
+      "file": "app.js",
+      "function": "drawLesson"
+    },
+    {
+      "file": "app.js",
+      "function": "drawNote29"
+    },
+    {
+      "file": "curriculum14.js",
+      "redundant": "APP_VER assignment; single version stays in core.js"
+    },
+    {
+      "file": "legacy.css",
+      "selector": ".prog"
+    },
+    {
+      "file": "legacy.css",
+      "selector": ".prog i"
+    },
+    {
+      "file": "legacy.css",
+      "selector": ".prog i.on"
+    },
+    {
+      "file": "legacy.css",
+      "selector": ".prog i.done"
+    },
+    {
+      "file": "m3-flows.css",
+      "selector": ".f2-step-progress"
+    },
+    {
+      "file": "m3-flows.css",
+      "selector": ".f2-step-progress>i"
+    },
+    {
+      "file": "m3-flows.css",
+      "selector": ".f2-step-progress>i.complete"
+    },
+    {
+      "file": "m3-flows.css",
+      "selector": ".f2-step-progress>i.current"
+    },
+    {
+      "file": "m3-flows.css",
+      "selector": ".f2-step-progress"
+    },
+    {
+      "file": "m3-flows.css",
+      "selector": ".f2-step-progress"
+    },
+    {
+      "file": "routine-checkin.css",
+      "selector": ".ci40-progress-meta"
+    },
+    {
+      "file": "routine-checkin.css",
+      "selector": ".ci40-progress"
+    },
+    {
+      "file": "routine-checkin.css",
+      "selector": ".ci40-progress>i"
+    },
+    {
+      "file": "routine-checkin.css",
+      "selector": ".ci40-progress-meta"
+    },
+    {
+      "file": "routine-checkin.css",
+      "selector": ".ci40-progress>i"
+    },
+    {
+      "file": "routine-sheets.css",
+      "selector": ".m3-review .sheet14-ready>.f2-step-progress"
+    }
+  ],
+  "approved_changes": {
+    "design-system.js": "SHIN_BACK_ART (14 SVG), flowBack and shinCardFaces",
+    "design-system.css": "Shared turner, illustrated blue reverse and separate scroll body",
+    "scripts/habits.js": "Call shinCardFaces when mounting cards",
+    "scripts/interaction.js": "Persistent flip; removed obsolete redraw/ghost/press behavior",
+    "scripts/extensions.js": "Fit both faces; remember active scroller by side"
+  }
+}

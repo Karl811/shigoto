@@ -1,0 +1,249 @@
+/* Shin M3.3.19: one semantic type scale and one flow scaffold.
+   Explicit roles replace typography-approved.js and its per-element !important
+   styles. Important type declarations below bridge older component styles. */
+:root{
+ --shin-title:1.375rem;--shin-dialog:1.25rem;--shin-section:1.125rem;
+ --shin-body:1rem;--shin-label:.875rem;--shin-meta:.75rem;
+ --shin-space:16px;--shin-sheet-radius:28px;--shin-target:48px;
+}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+#shinTypographyRoot{font-size:var(--shin-body);line-height:1.5}
+#shinTypographyRoot :is(#app,.ov){font-size:var(--shin-body);line-height:1.5}
+#shinTypographyRoot :is(p,li,blockquote,label,.lbl,.qlab,.sentence,.sentence u,.say__b,.hw__why,.safe,.out,.quote,.steps,.f3-memo>p,.m3-journal-note,.flow-day-entry>p,.letter-body37):not(:where(.flow-paper *,.postage37 *)){
+ font-size:var(--shin-body)!important;line-height:1.5!important;
+}
+#shinTypographyRoot :is(h2,h3,.f3-section-heading h2,.f3-setting-group h2,.f2-how-title h2,.f2-ci-row-head h3,.flow-empty h2):not(:where(.flow-paper *,.postage37 *)){
+ font-size:var(--shin-section)!important;line-height:1.3334!important;font-weight:600;
+}
+#shinTypographyRoot :is(small,time,.note,.tiny,.ver,.m3-status,.f3-status,.m3-kicker,.ey,.hw__k,.ci40-kicker,.ci40-save-hint,.evening-pomo-eyebrow,.breath18-panel-head small,.review16 li):not(:where(.flow-paper *,.postage37 *)){
+ font-size:var(--shin-meta)!important;line-height:1.3334!important;
+}
+#shinTypographyRoot :is(.m3-subtitle,.flow-row-main small,.flow-week-title small,.evening-mini small,.f3-setting-label small,.f3-setting-header>.sndt,.f2-head small,.ci40-hero>p:not(.ci40-kicker),.f3-empty,.letter-hint37,.letter-meaning37,.week-count-description31,.wnotes,.wnotes li,.wnotes li>b,.review16 p,.review16 summary,.runtime32 span,.runtime32 button,.m3-week-legend p):not(:where(.flow-paper *)){
+ font-size:var(--shin-label)!important;line-height:1.4286!important;
+}
+#shinTypographyRoot :is(input:not([type=checkbox]):not([type=radio]):not([type=range]),textarea,select){font-size:var(--shin-body)!important;line-height:1.5!important;max-width:100%;min-width:0}
+#shinTypographyRoot :is(.btn,.m3-button,.chp,.flow-link,.f2-text-button,.linkb,.week-link,.f3-tabs button,.f3-filters button,.m3-tabs button,.evening-skip-choice,.ci40-primary,.flow-flip){
+ font-size:var(--shin-label)!important;line-height:1.4286!important;font-weight:500;
+}
+#shinTypographyRoot :is(.f3-tabs button span,.m3-tabs button span,.chp span):not(.material-symbols-rounded){font-size:inherit!important;line-height:inherit!important}
+#shinTypographyRoot :is(.flow-row-main b,.flow-week-title b,.evening-mini b,.f3-lesson-row b,.f3-library-row-title b,.f3-setting-label>b,.f2-recorded-row>b,.f2-identity p,.ci40-extra-row>span,.ci40-moods>button){font-size:var(--shin-body)!important;line-height:1.5!important}
+#shinTypographyRoot :is(.evening-group-label,.m3-heading>#hdate,.flow-today-toolbar,.flow-entry-meta time,.growth-key,.growth-key span){font-size:var(--shin-meta)!important;line-height:1.3334!important;color:var(--on-surface-variant)}
+#shinTypographyRoot :is(.evening-tool b,.f3-create b,.m3-week-nav b){font-size:var(--shin-section)!important;line-height:1.3334!important}
+#shinTypographyRoot :is(.sh__h>b,.sh__h>h2,.f2-head b,.shin-wizard-head b,.ci40-bar>b){
+ font-size:var(--shin-dialog)!important;line-height:1.4!important;font-weight:600;min-width:0;
+}
+#shinTypographyRoot :is(.ci40-hero h2,.onboard-heading32 h1,.onboard32 h1,.first-choice32 h2,.wk__h h2,.tree-award h2){font-size:var(--shin-title)!important;line-height:1.2728!important}
+#shinTypographyRoot #pageTitle35{font-size:var(--shin-title)!important;line-height:1.2728!important;letter-spacing:0;font-weight:600;margin:0;min-width:0;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#shinTypographyRoot .flow-card-stage{--balance-title:22px;--balance-body:18px;--balance-meta:12px}
+#shinTypographyRoot .flow-card-stage :is(.flow-paper h2,.band-title h2){font-size:var(--balance-title)!important;line-height:1.2728!important}
+#shinTypographyRoot .flow-card-stage :is(.band-block>p,.band-formula>.flow-who,.flow-japanese>p,.flow-benefit,.flow-back>blockquote,.flow-back>blockquote p){font-size:var(--balance-body)!important;line-height:1.5!important}
+#shinTypographyRoot .flow-card-stage :is(.flow-card-level,.flow-card-how,.band-block>small,.flow-back-label,.flow-japanese>small,.flow-card-owner,.flow-card-owner b,.flow-card-owner small,.f2-day small,.flow-senpai small,.flow-senpai b,.band-personal){font-size:var(--balance-meta)!important;line-height:1.5!important}
+#shinTypographyRoot :is(.sh__h,.ci40-bar)>:is(b,h2),#shinTypographyRoot .f2-head>div,#shinTypographyRoot .shin-wizard-head>div{flex:1;min-width:0}
+#shinTypographyRoot :is(.sh__h,.ci40-bar)>:is(b,h2),#shinTypographyRoot .f2-head b,#shinTypographyRoot .shin-wizard-head b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#shinTypographyRoot :is(.btn,.m3-button,.flow-link,.f2-text-button,.chp,.linkb,.week-link,.evening-skip-choice){min-height:48px;border-radius:24px;max-width:100%;white-space:normal;overflow-wrap:anywhere}
+#shinTypographyRoot :is(.m3-icon-button,button.x,button.back,.flow-row-plus,.flow-card-edit,.flow-card-speak,.breath18-icon,.breath18-to-scene,#gear){width:48px;min-width:48px;height:48px;min-height:48px;flex-shrink:0;padding:12px;box-sizing:border-box}
+#shinTypographyRoot .sheet .igrid button{min-height:48px;min-width:0}
+#shinTypographyRoot .sheet .swrow button{min-width:0;min-height:48px}
+#shinTypographyRoot .sheet14-grip{height:24px;min-height:24px;flex:0 0 24px;cursor:grab}
+#shinTypographyRoot :is(.sh__h,.f2-sheet .f2-head,.ci40-top){backdrop-filter:none;-webkit-backdrop-filter:none}
+.shin-flow-progress{flex:none;position:relative;padding:0 16px 16px;background:var(--surface-low);--shin-track:var(--surface-high);--shin-active:var(--primary);color:var(--on-surface-variant)}
+.shin-flow-progress__meta{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:8px;font:400 var(--shin-meta)/1.3334 var(--f)}
+.shin-flow-progress__meta>span:first-child{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.shin-flow-progress__meta>span:last-child{flex:none;white-space:nowrap;font-variant-numeric:tabular-nums}
+.shin-flow-progress__track{height:4px;border-radius:4px;background:var(--shin-track);overflow:hidden}
+.shin-flow-progress__track>i{display:block;height:100%;border-radius:inherit;background:var(--shin-active);transition:width .2s var(--ease)}
+.shin-flow-progress--inverse{--shin-track:#FFFFFF33;--shin-active:#BED8FF;background:var(--ci40-hero);color:var(--ci40-subtitle)}
+#shinTypographyRoot .shin-wizard-head{top:auto!important;margin:0;padding:8px 8px 8px 16px;min-height:64px;gap:4px;background:var(--surface-low)}
+#shinTypographyRoot .shin-wizard-head>.m3-icon-button:first-child{margin-left:-8px}
+#shinTypographyRoot .wizard16{display:flex;flex-direction:column;height:auto;min-height:0;overflow:hidden;padding:0;scroll-padding:0}
+#shinTypographyRoot .wizard16>.lc{flex:0 1 auto;min-height:0;overflow:auto;padding:8px 16px 24px;overscroll-behavior:contain;scroll-padding:16px}
+#shinTypographyRoot .wizard16>.sbar{position:static;margin:0;border:0;border-top:1px solid var(--outline-variant);border-radius:0;box-shadow:none;flex:none;gap:12px;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:var(--surface-low)}
+#shinTypographyRoot .wizard16 .sbar .st{font-size:var(--shin-meta)!important;line-height:1.3334!important;font-weight:400;flex:1;min-width:0;color:var(--on-surface-variant)}
+#shinTypographyRoot .wizard16 .sbar>.btn{flex:0 1 auto;min-width:96px}
+#shinTypographyRoot .goal16{padding:8px 0;font-size:var(--shin-body);line-height:1.5}
+#shinTypographyRoot .goal16-buttons{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;max-width:420px;margin:24px 0 16px}
+#shinTypographyRoot .goal16-buttons button{width:100%;min-width:0;min-height:48px;height:48px;border-radius:24px;font-size:var(--shin-body);padding:0}
+#shinTypographyRoot .goal16-label{margin:12px 0}
+#shinTypographyRoot .sheet.f2-sheet:not(.f2-detail):not(.f2-breathe18):not(.f2-game14){display:flex;flex-direction:column;overflow:hidden;scroll-padding:0}
+#shinTypographyRoot .f2-sheet>.f2-head{position:relative;top:auto;flex:none;min-height:64px;margin:0;padding:8px 8px 8px 16px;gap:4px;z-index:2}
+#shinTypographyRoot .f2-sheet>.f2-body{flex:1 1 auto;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scroll-padding:16px;padding:16px}
+#shinTypographyRoot .f2-sheet>.f3-tabs,#shinTypographyRoot .f2-sheet>.f2-detail-tabs{position:relative;top:auto;flex:none;min-width:0}
+#shinTypographyRoot .f2-sheet>.f2-footer{position:relative;bottom:auto;flex:none;margin:0;min-height:72px;gap:8px;padding:12px 16px calc(12px + env(safe-area-inset-bottom));box-shadow:none}
+#shinTypographyRoot .f2-sheet>.f2-footer .f2-step-link{white-space:nowrap}
+#shinTypographyRoot .f2-how-title{margin-bottom:16px;align-items:flex-start;gap:12px}
+#shinTypographyRoot .f2-how-title h2{margin:0}
+#shinTypographyRoot .f2-how-content :is(p,li,.say__b,.hw__why,.quote,.safe,.out){font-size:var(--shin-body)!important;line-height:1.5!important}
+#shinTypographyRoot .f2-how-content .say__b b{font-size:inherit;line-height:inherit}
+#shinTypographyRoot .f2-how-content .hw__k{font-size:var(--shin-label)!important;line-height:1.4286!important}
+#shinTypographyRoot .ci40-sheet .ci40-top{padding:0;background:var(--ci40-hero)}
+#shinTypographyRoot .ci40-bar{padding:4px 8px 4px 16px;gap:4px;min-height:56px}
+#shinTypographyRoot .ci40-top .shin-flow-progress{padding-bottom:12px}
+#shinTypographyRoot .ci40-hero{padding:12px 16px 20px}
+#shinTypographyRoot .ci40-hero .ci40-emblem{display:none}
+#shinTypographyRoot .ci40-hero h2{margin:4px 0 8px;overflow-wrap:anywhere}
+#shinTypographyRoot .ci40-body{padding:16px}
+#shinTypographyRoot .ci40-question,#shinTypographyRoot .ci40-sheet .lbl{font-size:var(--shin-body)!important;line-height:1.5!important}
+#shinTypographyRoot .ci40-footer{padding:8px 16px calc(8px + env(safe-area-inset-bottom));gap:0;background:var(--surface);border-top:1px solid var(--outline-variant);flex:none}
+#shinTypographyRoot .ci40-footer :is(.ci40-primary,.ci40-skip){min-height:48px;margin:0}
+#shinTypographyRoot .ci40-sheet .ci40-primary{font-size:var(--shin-label)!important;line-height:1.4286!important}
+#shinTypographyRoot .ci40-save-hint{margin:0 0 4px}
+#shinTypographyRoot .ci40-scroll{min-height:0;scroll-padding:16px}
+#shinTypographyRoot .ci40-sheet textarea.inp{font-size:var(--shin-body)!important;line-height:1.5!important;min-height:96px;resize:vertical}
+#shinTypographyRoot .ci40-sheet .f2-options .record-option{min-height:72px;font-size:var(--shin-label)!important;line-height:1.4286!important}
+#shinTypographyRoot .ci40-extra-row{flex-wrap:wrap;min-width:0}
+#shinTypographyRoot .ci40-extra-row>span{flex:1 1 140px}
+#shinTypographyRoot .quick16 .ci40-top{background:var(--surface);color:var(--on-surface)}
+#shinTypographyRoot .quick16-status{padding:12px 16px;flex-wrap:wrap}
+#shinTypographyRoot .quick16 .ci40-scroll{min-height:0}
+#shinTypographyRoot .f3-setting-header .f3-setting-label{min-width:0;flex:1}
+#shinTypographyRoot .f3-setting-header .f3-setting-label>b{overflow-wrap:anywhere}
+#shinTypographyRoot .f3-setting-header .f3-setting-label>small{white-space:normal}
+#shinTypographyRoot .f3-setting-header>.m3-row-icon{flex-shrink:0}
+#shinTypographyRoot .f3-setting-header>.m3-button,#shinTypographyRoot .f3-setting-header>.btn{flex-shrink:0}
+#shinTypographyRoot .f3-stats b{font-size:var(--shin-title)!important;line-height:1.2728!important}
+#shinTypographyRoot .f3-stats span{font-size:var(--shin-meta)!important;line-height:1.3334!important}
+#shinTypographyRoot .f3-tabs{gap:0;padding:0 8px}
+#shinTypographyRoot .f3-tabs>button{min-width:0;padding:12px 8px;flex:1}
+#shinTypographyRoot .evening-library>.f3-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding:0;gap:0}
+#shinTypographyRoot .evening-library>.f3-tabs>button{padding:12px 4px;gap:4px}
+#shinTypographyRoot .evening-library>.f3-tabs>button>span:not(.material-symbols-rounded){white-space:nowrap}
+#shinTypographyRoot .f3-filters{flex-wrap:wrap;gap:8px}
+#shinTypographyRoot .f3-filters button{min-height:48px}
+#shinTypographyRoot .letter-sheet37{display:flex;flex-direction:column;padding:0;overflow:hidden}
+#shinTypographyRoot .letter-sheet37>.sh__h{position:relative;top:auto;flex:none;min-height:64px;padding:8px 8px 8px 16px;margin:0;background:var(--surface-low)}
+#shinTypographyRoot .letter-content37{flex:1 1 auto;min-height:0;overflow:auto;overscroll-behavior:contain;width:100%;max-width:none;padding:16px;box-sizing:border-box}
+#shinTypographyRoot .letter-footer37{position:relative;bottom:auto;display:flex;flex-direction:column;gap:4px;margin-top:16px;padding:12px 0 calc(8px + env(safe-area-inset-bottom));background:var(--surface-low)}
+#shinTypographyRoot .letter-footer37 .btn{width:100%}
+#shinTypographyRoot .letter-compose37 .letter-hint37{margin:8px 0 16px}
+#shinTypographyRoot .sheet .wk__hb h3{font-size:var(--shin-section)!important;line-height:1.3334!important}
+#shinTypographyRoot .sheet .wk__hb h3>.small{font-size:var(--shin-meta)!important;line-height:1.3334!important}
+#shinTypographyRoot .sheet .days>div{font-size:var(--shin-meta)!important;line-height:1.3334!important;min-width:0}
+#shinTypographyRoot .sheet .wlegend>span{font-size:var(--shin-meta)!important;line-height:1.3334!important}
+#shinTypographyRoot .runtime32[data-kind=offline]{white-space:normal;overflow:visible}
+#shinTypographyRoot .runtime32[data-kind=offline]>span{white-space:normal}
+#shinTypographyRoot .flow-week-dots,#shinTypographyRoot .f2-card-week>div{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:0}
+#shinTypographyRoot .flow-week-day{min-width:0;min-height:56px}
+#shinTypographyRoot .flow-week-day small{white-space:nowrap;font-size:var(--shin-meta)!important;line-height:1.3334!important}
+#shinTypographyRoot :is(.flow-paper,.flow-week-row,.evening-mini,.m3-week-surface,.m3-page,.f3-setting-group,.wk){min-width:0;max-width:100%;box-sizing:border-box}
+#shinTypographyRoot :is(.flow-day-entry p,.m3-journal-note,.growth-entry p,.letter-body37,.review16 li span){overflow-wrap:anywhere;word-break:normal}
+#shinTypographyRoot .breath18-panel{font-size:var(--shin-label);line-height:1.4286}
+#shinTypographyRoot .breath18-panel-head h2{font-size:var(--shin-dialog)!important;line-height:1.4!important}
+#shinTypographyRoot .breath18-panel :is(button,summary){font-size:var(--shin-label)!important;line-height:1.4286!important;min-height:48px}
+#shinTypographyRoot .breath18-stage .breath18-icon{width:48px;height:48px;min-height:48px}
+#shinTypographyRoot :is(button,a,input,textarea,select,summary):focus-visible{outline:2px solid var(--primary);outline-offset:3px}
+#shinTypographyRoot .sheet14-grip:focus-visible{outline-offset:-4px}
+@media(max-width:767px){
+ #shinTypographyRoot .m3-appbar{container:shin-header / inline-size;display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-rows:auto auto;gap:0 8px;padding:max(8px,env(safe-area-inset-top)) 16px 12px;margin:0;align-items:center;max-width:100%;box-sizing:border-box}
+ #shinTypographyRoot .m3-heading{display:contents}
+ #shinTypographyRoot .m3-heading>#hdate{grid-column:1;grid-row:1;min-width:0;margin:0;overflow-wrap:anywhere}
+ #shinTypographyRoot .m3-heading>div{grid-column:1/-1;grid-row:2;display:flex;align-items:center;gap:4px;min-width:0;width:100%!important;max-width:100%}
+ #shinTypographyRoot .m3-top-actions{grid-column:2;grid-row:1;display:flex;align-items:center;justify-content:flex-end;gap:0;min-width:0;flex-wrap:wrap}
+ #shinTypographyRoot .m3-top-actions :is(#saveStatus32,#hpts,[data-act=collection]){display:none}
+ #shinTypographyRoot .m3-floating-action{position:static}
+ #shinTypographyRoot .ckb{width:auto;min-width:0;min-height:48px;height:auto;padding:6px 12px;gap:6px;border-radius:24px}
+ #shinTypographyRoot .ckb span>b{font-size:var(--shin-label)!important;line-height:1.4286!important}
+ #shinTypographyRoot .ckb span>small{font-size:var(--shin-meta)!important;line-height:1.3334!important}
+ #shinTypographyRoot .m3-main{padding:8px 16px calc(112px + env(safe-area-inset-bottom));margin:0;min-width:0}
+ #shinTypographyRoot .m3-release-demo{margin:0;padding:4px 16px;min-height:40px;font-size:var(--shin-meta);line-height:1.3334;gap:12px;box-sizing:border-box}
+ #shinTypographyRoot .m3-release-demo button{min-height:40px;flex-shrink:0}
+ #shinTypographyRoot .m3-navigation{container:shin-nav / inline-size;inset:auto 8px 8px;width:auto;max-width:none;min-height:76px;padding:4px 4px calc(4px + env(safe-area-inset-bottom));display:flex;flex-direction:row;gap:0;border-radius:28px;box-sizing:border-box}
+ #shinTypographyRoot .m3-navigation>button{flex:1;min-width:0;max-width:none;min-height:64px;gap:4px;padding:4px 0;border-radius:24px}
+ #shinTypographyRoot .m3-navigation>button>span:not(.m3-nav-indicator){font-size:var(--shin-meta)!important;line-height:1.3334!important;white-space:nowrap}
+ #shinTypographyRoot .m3-navigation .m3-nav-indicator{width:56px;max-width:100%;height:32px;min-height:32px}
+ #shinTypographyRoot .m3-navigation .m3-rail-brand{display:none}
+ #shinTypographyRoot .ov,#shinTypographyRoot .ov.f2-overlay{padding:0!important;align-items:flex-end}
+ #shinTypographyRoot .sheet,#shinTypographyRoot .sheet.sheet--mini{width:100%;max-width:none;max-height:calc(100dvh - max(12px,env(safe-area-inset-top)) - var(--kb));height:auto;min-height:0;border-radius:28px 28px 0 0;padding:16px;box-sizing:border-box;overscroll-behavior:contain}
+ #shinTypographyRoot .sheet14-ready:not(.f2-sheet):not(.wizard16):not(.letter-sheet37):not(.ref12-achievement):not(.ref12-week)>.sheet14-grip{width:calc(100% + 32px);margin-left:-16px;margin-top:-16px}
+ #shinTypographyRoot .sheet.wizard16,#shinTypographyRoot .sheet.letter-sheet37{padding:0}
+ #shinTypographyRoot .sheet.f2-sheet{padding:0}
+ #shinTypographyRoot .sheet:is(.f2-how,.f2-lesson,.f2-notebook,.f2-detail,.f2-pomodoro,.f2-game14,.f2-breathe18,.f2-checkin,.ref12-week){height:calc(100dvh - var(--kb));max-height:calc(100dvh - var(--kb));border-radius:0}
+ #shinTypographyRoot .sheet.f2-record,#shinTypographyRoot .sheet.quick16{height:auto;max-height:calc(100dvh - 12px - var(--kb));width:100%;border-radius:28px 28px 0 0}
+ #shinTypographyRoot .sheet.letter-sheet37{height:auto;max-height:calc(100dvh - 12px - var(--kb))}
+ #shinTypographyRoot .sheet.f3-letter-compose{height:calc(100dvh - var(--kb));max-height:calc(100dvh - var(--kb));border-radius:0}
+ #shinTypographyRoot .sheet:is(.f2-how,.f2-lesson,.f2-notebook,.f2-detail,.f2-pomodoro,.f2-game14,.f2-checkin,.f3-letter-compose)>.sheet14-grip{height:calc(24px + env(safe-area-inset-top));min-height:calc(24px + env(safe-area-inset-top));flex-basis:calc(24px + env(safe-area-inset-top));padding-top:env(safe-area-inset-top);box-sizing:border-box}
+ #shinTypographyRoot .f2-pomodoro .evening-pomodoro{padding:16px!important}
+ #shinTypographyRoot .sheet.ref12-week{padding:0 16px 16px}
+ #shinTypographyRoot .sheet.ref12-week>.sheet14-grip{width:calc(100% + 32px);margin-left:-16px}
+ #shinTypographyRoot .sheet.ref12-week>.sh__h{padding-left:0;padding-right:0;top:24px}
+ #shinTypographyRoot .sheet.ref12-achievement{padding:0}
+ #shinTypographyRoot .detail16 .f2-detail-footer{padding:8px 16px calc(8px + env(safe-area-inset-bottom));gap:8px}
+ #shinTypographyRoot .detail16.flow-card-mode #habit-body33{padding:12px 16px!important}
+ #shinTypographyRoot .m3-heading>.week-title16 #pageTitle35{flex:0 1 auto!important;width:auto!important;max-width:calc(100% - 56px)!important}
+ #shinTypographyRoot #saved16{margin:0;flex:none}
+}
+/* Container queries also respond to browser zoom and large text, where the
+   layout's actual available width is smaller than the viewport media query. */
+#shinTypographyRoot :is(.m3-page-week,.m3-page-library){container:shin-content / inline-size}
+@container shin-header (max-width:240px){
+ #shinTypographyRoot .m3-heading>#hdate{grid-column:1/-1;grid-row:1;overflow-wrap:normal;margin:4px 0}
+ #shinTypographyRoot .m3-heading>div{grid-column:1/-1;grid-row:2}
+ #shinTypographyRoot .m3-top-actions{grid-column:1/-1;grid-row:3;justify-content:flex-start;margin-top:8px}
+}
+@container shin-nav (max-width:260px){
+ #shinTypographyRoot .m3-navigation>button>span:not(.m3-nav-indicator){white-space:normal;overflow-wrap:normal;text-align:center;width:100%}
+}
+@container shin-content (max-width:240px){
+ #shinTypographyRoot .m3-week-nav{display:grid;grid-template-columns:48px minmax(0,1fr) 48px;gap:4px}
+ #shinTypographyRoot .m3-week-nav>div{grid-row:1;grid-column:1/-1}
+ #shinTypographyRoot .m3-week-nav>button{grid-row:2}
+ #shinTypographyRoot .m3-week-nav>button:last-child{grid-column:3}
+ #shinTypographyRoot .flow-week-title>.flow-emblem{display:none}
+ #shinTypographyRoot .flow-week-title>.material-symbols-rounded{display:none}
+ #shinTypographyRoot .evening-mini-grid{grid-template-columns:minmax(0,1fr)}
+ #shinTypographyRoot .evening-week-challenge{display:block}
+ #shinTypographyRoot .evening-week-challenge>svg{display:none}
+}
+@media(max-width:359px){
+ #shinTypographyRoot .f3-tabs>button{padding:12px 4px;gap:4px}
+ #shinTypographyRoot .f3-tabs .material-symbols-rounded{width:20px;height:20px;font-size:20px;flex-basis:20px}
+ #shinTypographyRoot .ci40-sheet .f2-options{gap:6px}
+ #shinTypographyRoot .ci40-sheet .f2-options .record-option{font-size:var(--shin-meta)!important;padding:8px 4px}
+ #shinTypographyRoot .flow-card-stage .band-front{padding-left:40px}
+ #shinTypographyRoot .flow-card-stage .flow-paper{padding-right:16px}
+}
+@media(max-height:700px){
+ #shinTypographyRoot .ci40-hero{padding:8px 16px 12px}
+ #shinTypographyRoot .ci40-hero .ci40-kicker{display:none}
+ #shinTypographyRoot .ci40-top .shin-flow-progress{padding-bottom:8px}
+ #shinTypographyRoot .ci40-footer{padding-top:8px}
+}
+@media(max-height:500px){
+ #shinTypographyRoot .ci40-hero>p,#shinTypographyRoot .ci40-hero-link{display:none}
+ #shinTypographyRoot .ci40-hero h2{font-size:var(--shin-section)!important;line-height:1.3334!important;margin:0}
+ #shinTypographyRoot .ci40-body{padding:12px 16px 16px}
+ #shinTypographyRoot .ci40-bar{min-height:48px;padding-top:0;padding-bottom:0}
+ #shinTypographyRoot .ci40-footer{padding:4px 16px calc(4px + env(safe-area-inset-bottom))}
+ #shinTypographyRoot .ci40-save-hint{display:none}
+}
+#shinTypographyRoot.keyboard-open32 .ci40-hero>p,#shinTypographyRoot.keyboard-open32 .ci40-hero-link,#shinTypographyRoot.keyboard-open32 .ci40-kicker{display:none}
+#shinTypographyRoot.keyboard-open32 .ci40-hero{padding:8px 16px}
+#shinTypographyRoot.keyboard-open32 .m3-navigation{display:none}
+@media(prefers-reduced-motion:reduce){.shin-flow-progress__track>i{transition:none}}
+
+#shinTypographyRoot .f2-how-title h2{text-wrap:balance}
+
+/* Persistent, two-sided cards. Only the turner rotates; each face owns its scroll. */
+#shinTypographyRoot .flow-card-stage{position:relative;perspective:1100px;overflow:visible;isolation:auto}
+#shinTypographyRoot .shin-card-turner{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:none}
+#shinTypographyRoot .shin-card-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;transform-style:preserve-3d}
+#shinTypographyRoot .shin-card-front{transform:rotateY(0deg)}
+#shinTypographyRoot .shin-card-back{transform:rotateY(180deg)}
+#shinTypographyRoot .shin-card-face[inert]{pointer-events:none}
+#shinTypographyRoot .shin-card-face>.flow-paper{width:100%;height:100%;max-height:100%;min-height:0;overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain;transition:none;backface-visibility:hidden;-webkit-backface-visibility:hidden}
+#shinTypographyRoot .flow-card-stage .shin-art-back{display:flex;flex-direction:column;padding:0!important;overflow:hidden;background:#173F79;color:#F5F8FF;border:0;--flow-ink:#F5F8FF;--flow-secondary:#C7DBFA}
+#shinTypographyRoot .shin-art-back:before,#shinTypographyRoot .shin-art-back:after{content:none}
+#shinTypographyRoot .shin-back-art{flex:0 0 25%;min-height:0;overflow:hidden;background:linear-gradient(150deg,#214E88,#173F79)}
+#shinTypographyRoot .shin-back-art svg{display:block;width:100%;height:100%}
+#shinTypographyRoot .shin-back-copy{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:18px 24px 20px;scroll-padding:16px;display:flex;flex-direction:column}
+#shinTypographyRoot .shin-back-label{font:500 12px/1.5 var(--f);letter-spacing:1.2px;color:#B6D3F3}
+#shinTypographyRoot .flow-card-stage .shin-art-back h2{font-size:20px!important;line-height:1.35!important;color:#F5F8FF;margin:8px 0 22px;text-wrap:balance;flex:none}
+#shinTypographyRoot .shin-back-proverb{display:grid;grid-template-columns:minmax(0,1fr) 40px;gap:8px;align-items:start;flex:none}
+#shinTypographyRoot .shin-back-proverb p{font:400 19px/1.65 var(--jp);color:#F5F8FF;margin:0;overflow-wrap:anywhere}
+#shinTypographyRoot .shin-back-proverb .flow-card-speak{width:40px;min-width:40px;height:40px;min-height:40px;padding:8px;position:static;background:#FFFFFF12;color:#D8E9FF;border:1px solid #B6D3F32B}
+#shinTypographyRoot .shin-back-romaji{font:400 12px/1.5 var(--f);color:#B6D3F3;margin:8px 0 0;flex:none}
+#shinTypographyRoot .shin-back-meaning{font:500 16px/1.5 var(--f);color:#EDF5FF;margin:16px 0 0;flex:none}
+#shinTypographyRoot .shin-back-benefit{font:400 14px/1.55 var(--f);color:#C7DBFA;border-top:1px solid #BAD7FF26;padding-top:16px;margin:20px 0 0;flex:none}
+#shinTypographyRoot .shin-art-back .flow-senpai{flex:none;margin-top:auto;padding:20px 0 0;background:none;border:0;color:#C7DBFA;min-height:48px}
+#shinTypographyRoot .shin-art-back .flow-senpai>span:first-child{display:none}
+#shinTypographyRoot .shin-art-back .flow-senpai :is(small,b){font-size:12px!important;line-height:1.5!important;color:#C7DBFA}
+@media(max-width:359px){#shinTypographyRoot .shin-back-copy{padding:16px 20px}#shinTypographyRoot .flow-card-stage .shin-art-back h2{margin-bottom:16px}}

@@ -1,0 +1,110 @@
+/* Canonical editable source. Section names record provenance, not imports. */
+
+/* ===== SECTION: refinement16.css ===== */
+/* Every font rule below belongs to an explicitly requested surface. */
+.runtime32[data-kind=offline]{box-shadow:none!important;padding:8px 12px!important;white-space:nowrap;overflow:hidden}.runtime32[data-kind=offline]>span{white-space:nowrap}
+.evening-library .f3-custom-section{margin-bottom:24px}.evening-library .f3-section-heading{margin:20px 0 12px}.evening-library .f3-filters{margin-top:24px}
+.evening-mini.training16{background:color-mix(in srgb,var(--flow-paper) 78%,var(--flow-ink) 22%);border:2px solid color-mix(in srgb,var(--flow-ink) 50%,transparent);box-shadow:none}.training16 small{font-weight:700}.training16:after{content:'✓';position:absolute;top:6px;right:8px;font-size:12px;color:var(--flow-ink)}
+.m3-review .record16 .ci40-top,.m3-review .ci40-sheet .ci40-top{position:relative!important;top:auto;min-height:0;padding:5px 16px 8px}.m3-review .ci40-sheet .ci40-hero{padding:8px 20px 16px}.m3-review .ci40-sheet .ci40-hero h2{font-size:23px!important;line-height:1.3}.m3-review .ci40-sheet .ci40-emblem{width:36px;height:36px;margin-bottom:8px}.m3-review .ci40-sheet .ci40-body{padding:16px 20px}.m3-review .ci40-sheet .ci40-kicker{font-size:10px!important}.m3-review .ci40-sheet .ci40-hero>p:not(.ci40-kicker){font-size:13px!important}.m3-review .ci40-sheet .ci40-question{font-size:15px!important}.m3-review .ci40-sheet textarea.inp{font-size:16px!important;min-height:92px}.m3-review .ci40-sheet .f2-options .record-option{min-height:64px;gap:5px;padding:8px 4px}.m3-review .ci40-sheet .ci40-footer{padding:8px 20px calc(8px + env(safe-area-inset-bottom))}.m3-review .ci40-sheet .ci40-primary{min-height:48px;font-size:15px!important}
+.hints16 .hint16-extra{display:none!important}.hints16.expanded16 .hint16-extra{display:inline-flex!important}.hints16>div{display:flex;gap:6px;flex-wrap:wrap}.hint16-more{font-size:13px!important;min-height:40px}.hint16-more[hidden]{display:none}
+.m3-review .sheet.quick16{height:auto;max-height:calc(100dvh - 16px - var(--kb));width:min(100%,480px)}.quick16 .ci40-top{background:var(--surface);color:var(--on-surface)}.quick16-status{padding:8px 20px;display:flex;align-items:center;justify-content:space-between;gap:8px}.quick16-status b{font-size:14px}.quick16 .ci40-body{padding-top:4px}.quick16 .ci40-scroll{min-height:100px}
+.wizard16 .sh__h{position:relative!important;top:auto;flex:none}.wizard16 .lc{min-height:0;overflow-y:auto;overscroll-behavior:contain}.wizard16 .sbar{position:relative;flex:none;min-height:64px;gap:12px;padding:12px 20px calc(12px + env(safe-area-inset-bottom));align-items:center}.wizard16 .sbar .st{min-width:0;flex:1;line-height:1.35}.wizard16 .sbar>.btn{flex:none}.wizard16.quiz16 [data-act=stSkipQ]{display:inline-flex;align-items:center;gap:8px;color:var(--primary)!important;text-decoration:none!important;font-size:15px!important;min-height:44px}.wizard16.quiz16 [data-act=stSkipQ] .material-symbols-rounded{font-size:20px}
+.m3-review .sheet.custom16 .lc{font-size:16px;line-height:1.5}.m3-review .custom16 h2{font-size:22px!important}.m3-review .custom16 .qlab,.m3-review .custom16 .lbl{font-size:15px!important}.m3-review .custom16 .inp{font-size:16px!important}.m3-review .custom16 .chp{font-size:15px!important;min-height:44px}.m3-review .custom16 .cuprev b{font-size:19px!important}.m3-review .custom16 .note,.m3-review .custom16 .tiny{font-size:13px!important}.custom16 .igrid button,.custom16 .swrow button,.custom16 .cuprev,.custom16 .cuprev .emb,.custom16 .rhyrow button{box-shadow:none!important;filter:none!important}.custom16 .swrow button.on,.custom16 .igrid button.on{outline:2px solid var(--primary);outline-offset:3px}
+.goal16{padding:12px 0;font:400 16px/1.5 var(--f)}.goal16-buttons{display:flex;flex-wrap:wrap;gap:6px;margin:24px 0}.goal16-buttons button{width:44px;height:44px;min-height:44px;min-width:44px;border:1px solid var(--outline-variant);border-radius:50%;background:var(--surface);color:var(--on-surface);font:600 16px var(--f);padding:0;box-shadow:none}.goal16-buttons button[aria-checked=true]{background:var(--primary);color:var(--on-primary);border-color:var(--primary)}.goal16 .note{font-size:13px}.goal16-label{margin-top:12px}
+.m3-review .detail16{display:flex;flex-direction:column;overflow:hidden}.m3-review .detail16 #habit-body33{min-height:0;flex:1 1 0;position:relative;top:auto}.m3-review .detail16.flow-card-mode #habit-body33{padding:14px 16px!important}.m3-review .detail16 .f2-detail-tabs{position:relative!important;top:auto!important;flex:none}.m3-review .detail16 .f2-head{position:relative!important;top:auto;flex:none}.detail16 .flow-card-stage{min-height:0;overflow:hidden}.detail16 .flow-paper{box-sizing:border-box!important;margin:0!important;max-height:100%;min-height:0!important}.detail16 .f2-detail-footer{flex:none;position:relative!important;bottom:auto}.detail16 #habit-body33:has(.growth-diary){overflow-y:auto!important;display:block!important}.detail16 #habit-body33{animation:none!important;transition:none!important}
+.detail16 .flow-card-stage{height:auto!important;flex:1 1 0!important;align-self:stretch}.detail16 .flow-paper{height:100%!important}
+.growth-rhythm{margin:16px 0!important}.garden-panel .m3-milestones,.tree-panel .m3-milestones,.journey-past33{margin-top:20px!important}.review16{margin-top:24px;border-top:1px solid var(--outline-variant);padding:16px 0;font-size:14px;line-height:1.5}.review16 summary{display:flex;align-items:center;gap:8px;cursor:pointer;font-weight:600}.review16 ul{list-style:none;padding:0}.review16 li{display:flex;gap:14px;padding:10px 0;border-bottom:1px solid var(--outline-variant)}.review16 li>b{flex:none}.review16 li>span{min-width:0}.review16 input{width:20px;height:20px;vertical-align:middle;margin-right:8px}
+#saved16{margin-left:8px;flex:none;color:var(--primary);background:none}.header-title-line35{align-items:center}
+.header-title-line35:has(#saved16) #pageTitle35{flex:0 1 auto;width:auto;max-width:fit-content}.header-title-line35:has(#saved16){justify-content:flex-start;gap:0}
+.m3-review .m3-heading>.week-title16{justify-content:flex-start!important;gap:0!important}.m3-review .week-title16 #pageTitle35{flex:0 1 auto!important;width:auto!important}.week-title16 #headerAction35{margin-left:0}.week-title16 #saved16{margin-left:4px}
+.m3-review .m3-heading>.week-title16{display:flex!important;width:fit-content}.m3-review .week-title16 #pageTitle35{flex:none!important;width:max-content!important;max-width:max-content!important}
+.m3-review .ov:has(.f2-game14),.m3-review .ov:has(.f2-pomodoro){padding:0!important;align-items:stretch}.m3-review .sheet.f2-game14,.m3-review .sheet.f2-pomodoro{height:calc(100dvh - var(--kb))!important;max-height:calc(100dvh - var(--kb))!important;width:100%!important;max-width:none!important;border-radius:0!important;margin:0!important}.f2-game14{display:flex;flex-direction:column}.f2-game14 .play14-frame{flex:1 1 auto;min-height:0;width:100%;height:auto!important}.f2-game14 .play14-intro{order:5;margin:8px 20px;font-size:13px}.f2-game14 .f2-head{flex:none}
+.evening-tool{position:relative;overflow:hidden;background:#DCE8FF!important;border:1px solid #C6D7F4!important;color:#234D83}.evening-tool:before{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 88% 50%,transparent 30px,#547FC31A 31px,#547FC31A 33px,transparent 34px),radial-gradient(circle at 80% 12%,#547FC315 2px,transparent 3px);background-size:auto,18px 18px}.evening-tool.play14-tool:before{background:repeating-linear-gradient(135deg,transparent 0 24px,#547FC30D 25px 27px,transparent 28px 44px)}.evening-tool>*{position:relative}
+#preview16{position:fixed;right:18px;bottom:18px;z-index:99999;border:1px solid #A9BDE1;border-radius:24px;background:#DCE8FF;color:#173F79;padding:12px 18px;font:600 14px Arial;box-shadow:none}#phone16{position:fixed;inset:0;z-index:99990;background:#E4E8EF;display:flex;justify-content:center;align-items:center;padding:16px}#phone16 iframe{width:390px;height:min(844px,calc(100dvh - 32px));border:1px solid #A4ADBB;border-radius:24px;background:#F9F9FF}
+@media(prefers-reduced-motion:reduce){.detail16 *{animation:none!important;transition:none!important}}
+.back16 .sheet,.back16 .ov,.back16 .m3-page{animation:none!important;transition:none!important}
+.goal16-buttons{gap:5px}
+
+
+/* ===== SECTION: breath18.css ===== */
+/* All typography and colour rules are scoped to the breathing tool. */
+.m3-review .ov:has(.f2-breathe18){padding:0!important;align-items:stretch}
+.m3-review .sheet.f2-breathe18{width:100%!important;max-width:none!important;height:calc(100dvh - var(--kb))!important;max-height:calc(100dvh - var(--kb))!important;border-radius:0!important;margin:0!important;padding:0!important;display:flex;flex-direction:column;overflow:hidden;background:#F3F7FF;color:#25436E}
+.m3-review .sheet.f2-breathe18>.sheet14-grip{display:none!important}
+.m3-review:has(.f2-breathe18) #preview16{display:none}
+.breath18-sr{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.breath18-body{position:relative;overflow:auto;min-height:0;flex:1;overscroll-behavior:contain;font:400 14px/1.5 var(--f);scrollbar-width:thin;scrollbar-color:#8EACD5 #EDF4FF}
+.breath18-stage{--ink:#234A7F;--button:#F2F7FFDB;--button-border:#FFFFFF80;position:relative;isolation:isolate;height:calc(100dvh - var(--kb));min-height:420px;width:100%;overflow:hidden;background:#D6E9FF;color:var(--ink)}
+.breath18-stage[data-scene=night]{--ink:#E4F0FF;--button:#264879B8;--button-border:#9BC1F44D;background:#152D59}
+.breath18-scene{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 35%;z-index:-2;user-select:none;pointer-events:none}
+.breath18-top{position:absolute;z-index:3;top:max(16px,env(safe-area-inset-top));left:20px;right:20px;display:flex;justify-content:space-between;align-items:center}
+.breath18-top-actions{display:flex;gap:10px}
+.breath18-stage .breath18-icon{display:grid;place-items:center;border:1px solid var(--button-border);background:var(--button);color:var(--ink);border-radius:50%;width:42px;height:42px;min-height:42px;padding:9px;box-shadow:none;backdrop-filter:blur(8px);cursor:pointer}
+.breath18-icon>svg{width:22px;height:22px;flex:none}
+.breath18-stage .breath18-icon .mi{font-size:22px!important}
+.breath18-stage .breath18-icon[aria-pressed=true]{background:#315F9F;color:#F1F7FF;border-color:#82ADE6}
+.breath18-remaining{position:absolute;z-index:1;top:clamp(94px,14dvh,154px);left:24px;right:24px;color:var(--ink);font:600 clamp(38px,9vw,64px)/1.15 var(--f);font-variant-numeric:tabular-nums;text-align:center;letter-spacing:-1.5px}
+.breath18-shin{position:absolute;left:50%;bottom:11%;width:min(77vw,410px,48dvh);height:auto;aspect-ratio:120/124;transform:translateX(-50%) scale(.96);transform-origin:50% 96%;will-change:transform;pointer-events:none}
+.breath18-shin>svg{width:100%;height:100%;overflow:visible}
+.breath18-shin:before{content:'';position:absolute;z-index:-1;bottom:1%;left:26%;width:48%;height:3%;background:#234F8938;border-radius:50%}
+.breath18-shin .tail,.breath18-shin .blink,.breath18-shin .bob,.breath18-shin .wave{animation:none!important}
+.breath18-hat,.breath18-glasses,.breath18-mouth-in,.breath18-mouth-out,.breath18-mouth-hold,.breath18-air{display:none}
+.breath18-shin[data-hat=true] .breath18-hat,.breath18-shin[data-glasses=true] .breath18-glasses{display:block}
+.breath18-shin[data-phase=in] .breath18-mouth-rest,.breath18-shin[data-phase=out] .breath18-mouth-rest,.breath18-shin[data-phase=holdIn] .breath18-mouth-rest,.breath18-shin[data-phase=holdOut] .breath18-mouth-rest{display:none}
+.breath18-shin[data-phase=in] .breath18-mouth-in,.breath18-shin[data-phase=out] .breath18-mouth-out,.breath18-shin[data-phase=out] .breath18-air,.breath18-shin[data-phase=holdIn] .breath18-mouth-hold,.breath18-shin[data-phase=holdOut] .breath18-mouth-hold{display:block}
+.breath18-shin[data-phase=out] .breath18-air{opacity:.85}
+.breath18-stage-controls{position:absolute;z-index:3;bottom:max(24px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:22px}
+.breath18-stage .breath18-play{width:64px;height:64px;min-height:64px;display:grid;place-items:center;border-radius:50%;border:1px solid #B5D0F8;background:#2D64B6;color:#F8FBFF;padding:12px;box-shadow:0 4px 18px #1D477D20;cursor:pointer}
+.breath18-play .breath18-glyph{width:30px;height:30px}
+.breath18-stage[data-scene=night] .breath18-play{background:#BBD9FF;color:#173966}
+.breath18-stage :is(button):focus-visible,.breath18-panel :is(button,summary):focus-visible{outline:3px solid #3D76BD;outline-offset:4px}
+.breath18-stage[data-scene=night] :is(button):focus-visible{outline-color:#D0E7FF}
+.breath18-stage:fullscreen,.breath18-stage.breath18-immersive{width:100vw!important;height:100dvh!important;max-width:none!important;max-height:none!important;background:#CDE2FF}
+.breath18-stage.breath18-immersive{position:fixed!important;inset:0!important;z-index:2147483645}
+.breath18-stage:fullscreen .breath18-settings,.breath18-stage.breath18-immersive .breath18-settings{visibility:hidden}
+.breath18-panel{box-sizing:border-box;min-height:calc(100dvh - var(--kb));max-width:660px;margin:0 auto;padding:28px 24px max(38px,env(safe-area-inset-bottom));color:#284B79;font:400 14px/1.5 var(--f)}
+.breath18-panel-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px}
+.breath18-panel-head small{font:600 10px/1.4 var(--f);letter-spacing:1.8px;color:#6281AB}
+.breath18-panel .breath18-panel-head h2{font:650 23px/1.3 var(--f);letter-spacing:-.4px;margin:4px 0;color:#284B79}
+.breath18-to-scene{width:40px;height:40px;display:grid;place-items:center;border:1px solid #BCD0EA;background:transparent;color:#3B659C;border-radius:50%;padding:7px}
+.breath18-panel .breath18-safety{font:400 12px/1.6 var(--f);color:#597297;margin:0 0 24px}
+.breath18-options{padding:0;border:0;margin:0;min-width:0}
+.breath18-options legend,.breath18-panel h3{font:600 15px/1.4 var(--f);margin:0 0 12px;color:#2C4F7D}
+.breath18-modes{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.breath18-modes>button{display:flex;flex-direction:column;gap:3px;border:1px solid #B8CCEA;border-radius:18px;background:#F8FAFF;color:#345783;text-align:left;padding:12px 14px;min-height:68px;box-shadow:none}
+.breath18-modes b{font:600 14px/1.4 var(--f)}.breath18-modes small{font:400 12px/1.4 var(--f)}
+.breath18-modes [aria-pressed=true]{background:#DCE9FF;border:2px solid #4A79B9;padding:11px 13px}
+.breath18-panel .breath18-pattern{font:400 12px/1.5 var(--f);color:#5F7B9F;margin:9px 0 18px}
+.breath18-unit{display:flex;background:#DFEAF9;border-radius:26px;padding:4px;gap:4px}
+.breath18-unit button{flex:1;min-height:42px;border:0;border-radius:24px;background:transparent;color:#456791;font:500 13px/1.4 var(--f);padding:8px}
+.breath18-unit [aria-pressed=true]{background:#FAFCFF;color:#285898}
+.breath18-values{display:flex;gap:8px;margin-top:12px}
+.breath18-values button{flex:1;min-height:44px;border:1px solid #BCD0EA;border-radius:24px;background:transparent;font:500 13px/1.4 var(--f);color:#456791}
+.breath18-values [aria-pressed=true]{background:#376CB6;border-color:#376CB6;color:#fff}
+.breath18-panel .breath18-definition{font:400 11px/1.55 var(--f);color:#617DA1;margin:9px 0 0}
+.breath18-options:disabled{opacity:.55}
+.breath18-appearance{border-top:1px solid #CFDFF2;margin-top:24px;padding-top:22px}
+.breath18-scenes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.breath18-scenes button{position:relative;overflow:hidden;padding:0 0 8px;border:2px solid transparent;border-radius:16px;background:#E2ECFB;color:#456791;box-shadow:none;font:500 12px/1.4 var(--f)}
+.breath18-scenes img{display:block;width:100%;height:88px;object-fit:cover;object-position:50% 57%;margin-bottom:7px}
+.breath18-scenes button>.breath18-glyph{position:absolute;right:5px;top:5px;border-radius:50%;background:#376CB6;color:#fff;padding:2px;width:18px;height:18px;opacity:0}
+.breath18-scenes [aria-pressed=true]{border-color:#376CB6;background:#D6E6FF;color:#204B85}
+.breath18-scenes [aria-pressed=true]>.breath18-glyph{opacity:1}
+.breath18-accessories{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.breath18-accessories button{display:flex;gap:6px;align-items:center;justify-content:center;min-height:40px;padding:8px 12px;border-radius:22px;border:1px solid #B7CCE8;background:transparent;color:#456791;font:500 12px/1.4 var(--f);box-shadow:none}
+.breath18-accessories button>.breath18-glyph{width:16px;height:16px;opacity:.15}
+.breath18-accessories button>svg{width:17px;height:17px}
+.breath18-accessories [aria-pressed=true]{background:#DAE8FD;border-color:#7499CB;color:#285898}
+.breath18-accessories [aria-pressed=true]>.breath18-glyph{opacity:1}
+.breath18-related{margin-top:24px;border-top:1px solid #CFDFF2;padding-top:16px;font-size:12px}
+.breath18-related summary{display:flex;justify-content:space-between;gap:8px;align-items:center;font-weight:600;cursor:pointer;list-style:none}
+.breath18-related p{margin:12px 0;line-height:1.65}
+.breath18-panel .flow-link{font:500 13px/1.5 var(--f);color:#3269B4}
+.breath18-reflect{margin-top:22px;padding:18px;border-radius:20px;background:#DFEBFE}
+.breath18-reflect p{font-size:13px;margin:0 0 10px}.breath18-reflect small{display:block;font-size:11px;margin-top:8px}.breath18-reflect[hidden]{display:none}
+.breath18-tool:before{background:radial-gradient(ellipse at 85% 50%,transparent 25px,#547FC31A 26px,#547FC31A 28px,transparent 29px,transparent 38px,#547FC312 39px,#547FC312 41px,transparent 42px)!important}
+.breath18-tool .play14-tool-art>svg{width:60px;height:60px}
+@media(min-aspect-ratio:6/5){.breath18-shin{width:min(42vw,45dvh,470px);bottom:11%}.breath18-remaining{top:12%}.breath18-scene{object-position:50% 30%}.breath18-top{left:28px;right:28px;top:24px}}
+@media(max-height:560px){.breath18-stage{min-height:300px}.breath18-remaining{top:64px;font-size:34px}.breath18-shin{width:min(40vw,48dvh);bottom:16%}.breath18-stage-controls{bottom:12px;gap:18px}.breath18-stage .breath18-play{width:48px;height:48px;min-height:48px;padding:8px}.breath18-play .mi{font-size:28px!important}}
+@media(prefers-reduced-motion:reduce){.breath18-shin{will-change:auto}.breath18-air{display:none!important}}
+

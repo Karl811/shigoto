@@ -1,0 +1,44 @@
+{
+  "feature_version": "M3.3.20",
+  "cache_build": "M3.3.20-5S.1",
+  "date": "2026-11-14",
+  "files": 51,
+  "baseline_5S_untouched": true,
+  "physical_phones_tested": false,
+  "checks": {
+    "cards-results.json": {
+      "passed": 120,
+      "total": 120
+    },
+    "regression-results.json": {
+      "passed": 72,
+      "total": 72
+    },
+    "actions-results.json": {
+      "passed": 10,
+      "total": 10
+    },
+    "scroll-results.json": {
+      "passed": 2,
+      "total": 2
+    },
+    "offline-results.json": {
+      "passed": 6,
+      "total": 6
+    },
+    "audit-results.json": {
+      "states": 372,
+      "javascript_errors": 0,
+      "horizontal_outside_elements": 0
+    },
+    "webkit/extra-results.json": {
+      "states": 171,
+      "javascript_errors": 0,
+      "horizontal_outside_elements": 0
+    }
+  },
+  "limits": [
+    "Tested Chromium/Chrome and WebKit emulated phone sizes; not physical device FPS, keyboard or audio voice availability.",
+    "Frame time is not benchmarked. The verified improvement is no dialog/card-node replacement during a flip, stable dimensions and retained per-face scrolling."
+  ]
+}

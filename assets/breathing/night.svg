@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" fill="none">
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#112450"/><stop offset="1" stop-color="#446EA9"/></linearGradient><linearGradient id="water" x2="0" y2="1"><stop stop-color="#466DA7"/><stop offset="1" stop-color="#213E76"/></linearGradient><pattern id="windows" width="30" height="38" patternUnits="userSpaceOnUse"><path d="M8 8h8v15H8Z" fill="#AACFF9" opacity=".65"/></pattern></defs>
+<path fill="url(#sky)" d="M0 0h1200v1200H0z"/>
+<path d="M856 244a42 42 0 0 1-51-60 44 44 0 1 0 51 60Z" fill="#D4E7FF"/>
+<g fill="#CEE6FF"><circle cx="226" cy="208" r="2.5"/><circle cx="421" cy="315" r="2"/><circle cx="678" cy="158" r="2.5"/><circle cx="1023" cy="340" r="3"/><circle cx="926" cy="131" r="2"/><circle cx="364" cy="131" r="2.5"/><circle cx="580" cy="265" r="2"/><circle cx="149" cy="379" r="2"/><circle cx="713" cy="360" r="2"/><path d="m948 299 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z"/><path d="m307 268 2 6 6 2-6 2-2 6-2-6-6-2 6-2Z"/></g>
+<g fill="#436297" opacity=".6"><path d="M122 345q32-30 59-4 28-48 64-9 34-17 55 16H110Z"/><path d="M697 306q25-27 49-4 19-31 49-10 35-12 52 18H689Z"/></g>
+<!-- A fictional Tokyo-inspired skyline; no copied landmark illustration. -->
+<path d="M0 652h74V492h71v96h48V438h94v175h37V528h82v84h52V472h76v110h70V536h79v82h61V504h76v90h51V443h79v126h48v-75h93v110h114v123H0Z" fill="#294B81"/>
+<g fill="#3C6198"><path d="M81 605h105v168H81zM211 523h99v250h-99zM335 601h73v172h-73zM430 540h108v233H430zM576 615h108v158H576zM936 562h97v211h-97zM1057 622h110v151h-110z"/></g>
+<g fill="url(#windows)"><path d="M89 620h89v143H89zM221 534h79v230h-79zM343 610h57v154h-57zM440 549h88v215h-88zM586 622h88v142h-88zM946 573h77v191h-77zM1067 631h90v133h-90z"/></g>
+<g transform="translate(775 378)"><path d="m0 0-56 395h112Z" fill="#5A86BF"/><path d="M0 0v-39M-29 183h58M-43 281h86M-51 349h102" stroke="#C0DCFC" stroke-width="6" stroke-linecap="round"/><path d="m-23 167 51 31-66 68 83 30-91 68M23 167l-51 31 66 68-83 30 91 68" stroke="#AACCF6" stroke-width="4"/><path d="M-18 113h36v21h-36z" fill="#C1DFFD"/><circle cy="-43" r="4" fill="#E0F0FF"/></g>
+<path d="M0 775q360-53 638-5t562-11v441H0Z" fill="url(#water)"/>
+<g stroke="#92BCEB" stroke-width="4" stroke-linecap="round" opacity=".46"><path d="M213 813h78m-57 18h57m170-11h66m-45 22h59m206-26h66m-85 16h100m-73 16h49m212-28h62M749 881h71m-93 19h120m-72 20h63M445 899h78m-59 22h49M225 941h59m681-48h61M732 956h109m-94 18h67"/></g>
+<!-- Quiet riverside promenade and a little rail bridge. -->
+<path d="M0 900q452-115 1200-67v42Q449 830 0 940Z" fill="#1D3765"/>
+<path d="M0 883q470-109 1200-67M66 871v43m127-69v43m128-66v43m128-63v43m128-58v43m128-52v43m128-47v43m128-42v43m128-37v43" stroke="#6E9BD3" stroke-width="5"/>
+<g transform="translate(318 830) rotate(-7)"><rect width="173" height="35" rx="12" fill="#B7D4F7"/><path d="M14 9h22v13H14zm34 0h22v13H48zm34 0h22v13H82zm34 0h22v13h-22zm34 0h12v13h-12z" fill="#416DA8"/><path d="M4 29h165" stroke="#5F8BC7" stroke-width="4"/></g>
+<path d="M0 1080q247-82 494 7t706-56v169H0Z" fill="#254779"/>
+<g stroke="#82ADE1" stroke-width="5" stroke-linecap="round"><path d="M287 1062V898m-19 2h38M930 1051V878m-19 2h38"/></g>
+<g fill="#C1DFFF"><path d="m273 899 2 25h25l2-25Z"/><path d="m916 879 2 25h25l2-25Z"/></g>
+<g fill="#3F669E"><ellipse cx="146" cy="1115" rx="114" ry="90"/><ellipse cx="239" cy="1165" rx="99" ry="75"/><ellipse cx="1043" cy="1117" rx="111" ry="86"/><ellipse cx="938" cy="1183" rx="115" ry="82"/></g>
+<g fill="#6089BF"><ellipse cx="176" cy="1090" rx="64" ry="46"/><ellipse cx="1013" cy="1089" rx="65" ry="43"/></g>
+<g stroke="#6F98CE" stroke-width="5" stroke-linecap="round"><path d="m349 1166 6-18 7 15m-90-25 5-15 8 13m623 22 6-17 8 16"/></g>
+</svg>

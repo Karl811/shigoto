@@ -1,0 +1,13 @@
+/* Reuse the app's role sizes inside the game's separate document. The small
+   decorative lettering on physical game pieces retains its artwork scale. */
+#shinGame19{font:400 var(--shin-body)/1.5 'Roboto Flex',Arial,sans-serif}
+#shinGame19 button{font:500 var(--shin-label)/1.4286 'Roboto Flex',Arial,sans-serif;min-height:48px;border-radius:24px}
+#shinGame19 :is(h1,h2,h3){font-size:var(--shin-section);line-height:1.3334}
+#shinGame19 :is(p,.result14 p,#empty-habits-msg){font-size:var(--shin-label);line-height:1.4286}
+#shinGame19 :is(.result14 b,#hud-title){font-size:var(--shin-body);line-height:1.5;white-space:normal}
+#shinGame19 :is(.result14-status,#hud-desc,#hud-tag,#selected-count-badge,.game14-small-title){font-size:var(--shin-meta);line-height:1.3334}
+#shinGame19 :is(main,main>header,main>section,.result14){min-width:0;max-width:100%;box-sizing:border-box}
+#shinGame19 .result14-actions{gap:8px;flex-wrap:wrap}
+#shinGame19 .result14-actions button{max-width:100%;white-space:normal}
+#shinGame19 button:focus-visible{outline:2px solid #2265C5;outline-offset:3px}
+@media(max-width:359px){#shinGame19 main>section>.flex{flex-wrap:wrap;gap:8px}}
