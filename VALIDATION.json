@@ -1,44 +1,179 @@
 {
   "feature_version": "M3.3.20",
-  "cache_build": "M3.3.20-5S.1",
+  "cache_build": "M3.3.20-5S.2",
   "date": "2026-11-14",
-  "files": 51,
-  "baseline_5S_untouched": true,
+  "status": "complete_for_approved_scope",
+  "files": 52,
+  "baseline": "M3.3.20-5S / M3.3.20-5S.1, not the shelved M3.3.21 prototype",
+  "baseline_folder_untouched": true,
   "physical_phones_tested": false,
+  "production_deployment_performed": false,
+  "structure": {
+    "passed": true,
+    "command": "node tools/verify.mjs",
+    "files": 52,
+    "offline_resources": 35,
+    "cache_tags_match": true
+  },
   "checks": {
-    "cards-results.json": {
+    "cards": {
       "passed": 120,
       "total": 120
     },
-    "regression-results.json": {
+    "regression": {
       "passed": 72,
       "total": 72
     },
-    "actions-results.json": {
+    "actions": {
       "passed": 10,
       "total": 10
     },
-    "scroll-results.json": {
+    "scroll": {
       "passed": 2,
       "total": 2
     },
-    "offline-results.json": {
+    "offline": {
       "passed": 6,
       "total": 6
     },
+    "subpath-offline": {
+      "passed": 6,
+      "total": 6
+    },
+    "data-roundtrip": {
+      "passed": 6,
+      "total": 6
+    }
+  },
+  "layout_audits": {
     "audit-results.json": {
       "states": 372,
       "javascript_errors": 0,
-      "horizontal_outside_elements": 0
+      "failed_states": 0,
+      "horizontal_outside_elements": 0,
+      "document_overflow_states": 0,
+      "interaction_checks_passed": 0
     },
     "webkit/extra-results.json": {
       "states": 171,
       "javascript_errors": 0,
-      "horizontal_outside_elements": 0
+      "failed_states": 0,
+      "horizontal_outside_elements": 0,
+      "document_overflow_states": 0,
+      "interaction_checks_passed": 9
     }
   },
+  "scope": {
+    "browsers": [
+      "Chrome (Chromium)",
+      "Playwright WebKit"
+    ],
+    "phone_sizes": [
+      "320×568",
+      "360×640",
+      "375×667",
+      "390×844",
+      "412×915",
+      "430×932"
+    ],
+    "additional_sizes": [
+      "667×375 landscape",
+      "reduced available height",
+      "200% CSS zoom on weekly page"
+    ],
+    "cards": "All 14 cards, both faces, 25% illustration height, stable nodes during flips, rapid/reopened flips, retained per-face scrolling; custom card checked in regression.",
+    "flows": "Fresh onboarding; 4 main pages; all 14 how-to flows; 5 lessons; custom card; weekly goal row and keyboard selection; note draft/save/undo; check-in draft without committing progress; Back navigation; sound control and Senpai reachability; reduced motion; swipe.",
+    "data": "Compared storage keys, progress/writer functions and synthetic progress against the untouched baseline; export/import round-trip in both browsers and prior-data safeguard.",
+    "offline": "Root and /shin/ subdirectory: new assets cached, saved learner survives reload, recording and subsequent reload, game/physics available offline.",
+    "visual_inspection": "Inspected actual in-app 390px screenshots of all seven changed card backs, including final 6A/7B."
+  },
+  "integrity": {
+    "changed_art_ids": [
+      "5s",
+      "chitieu",
+      "giup",
+      "horenso",
+      "som",
+      "vandong",
+      "viecko"
+    ],
+    "unchanged_art_ids": [
+      "5phut",
+      "anuong",
+      "camxuc",
+      "chao",
+      "memo",
+      "ngu",
+      "xinloi"
+    ],
+    "approved_art_integrated_exactly_except_namespaced_gradient_ids_and_removed_accessibility_wrapper": true,
+    "art_fragment_sha256": {
+      "chao": "5757ab9d6b9e97ba6a70e1a2bd53341137531ee0faa6287b7a85ed37f00a88d3",
+      "5s": "5b188bc34b6ecb039d8b245c496ebd75961252be94559658388a7130842cf2be",
+      "ngu": "09ea4b5c913f18f40c73eaa4bda1fdca6d34a9fe0e89355415a63f86d8cf6f86",
+      "5phut": "3b13f1a0a40ca4b5d779747efa6825a698c0730c41c3dc2f6262056964475153",
+      "som": "5b927de84b8c53987ac1424ed52e4ae8e30920c3e306512036012c077526f0c7",
+      "memo": "f4f2ee54e698277606b81aeba7bd2c7ac007336bdd1b6c760baf6167d21be678",
+      "xinloi": "f3dca03d661281953a3f6ec6ed7b011458f6d400f3eeea6cd9d75a6841ad47a2",
+      "camxuc": "8c767954c79e844659be2b5072b3827d46134cb4fbcbc19079a94a3ec135db6b",
+      "vandong": "636e51991234f188c361729645898e8ed289a91281daf0e8138bfb9d6cbb1504",
+      "anuong": "31225d3d5ba244746b26c65d17e2d35f7c9645e023d627a0918778c8c0f5a73e",
+      "chitieu": "6a913aa303b75ea3cd3a7d0f7ddd462c498d1a79c647837d1973eefc8558bbb9",
+      "viecko": "f37f305bcc7d4be986e6c02a1dcfa0b2c4585ec8b70e9499f432ce7a19837be7",
+      "horenso": "5d3c78ba10822bbbd694ab188267cefdc07ee6a693f735c62bcd97d22d876701",
+      "giup": "09e3b0aa96a01f2e937b19d8454a4c4917633d7991c2399015a3b8108cca635f"
+    },
+    "unchanged_files_relative_to_baseline": [
+      "boot.js",
+      "design-game.css",
+      "icon-192.png",
+      "LUCIDE-LICENSE.txt",
+      "VALIDATION.json",
+      "manifest.webmanifest",
+      "design-system.css",
+      "icon-512.png",
+      "tools/verify.mjs",
+      "styles/habits.css",
+      "styles/extensions.css",
+      "styles/components.css",
+      "styles/base.css",
+      "scripts/interface.js",
+      "scripts/core.js",
+      "scripts/interaction.js",
+      "scripts/habits.js",
+      "scripts/extensions.js",
+      "assets/touch/circle-check.svg",
+      "assets/touch/circle-minus.svg",
+      "assets/breathing/hills.svg",
+      "assets/breathing/inhale.mp3",
+      "assets/breathing/exhale.mp3",
+      "assets/breathing/river.svg",
+      "assets/breathing/hold.mp3",
+      "assets/breathing/night.svg",
+      "assets/game/matter-0.19.0.min.js",
+      "assets/game/habit-game.js",
+      "assets/game/habit-game.css",
+      "assets/game/TAILWIND-LICENSE.txt",
+      "assets/game/MATTER-LICENSE.txt",
+      "assets/fonts/MATERIAL-SYMBOLS-LICENSE.txt",
+      "assets/fonts/ROBOTO-FLEX-OFL.txt",
+      "assets/fonts/dancing-script-regular.ttf",
+      "assets/fonts/noto-sans-jp-0.woff2",
+      "assets/fonts/material-symbols-0.woff2",
+      "assets/fonts/roboto-flex-latin.woff2",
+      "assets/fonts/NOTO-SANS-JP-OFL.txt",
+      "assets/fonts/DANCING-SCRIPT-OFL.txt",
+      "assets/fonts/roboto-flex-vietnamese.woff2",
+      "assets/fonts/roboto-flex-latin-ext.woff2"
+    ],
+    "learner_data_in_package": false,
+    "prototype_how_visual_files_in_package": false
+  },
   "limits": [
-    "Tested Chromium/Chrome and WebKit emulated phone sizes; not physical device FPS, keyboard or audio voice availability.",
-    "Frame time is not benchmarked. The verified improvement is no dialog/card-node replacement during a flip, stable dimensions and retained per-face scrolling."
-  ]
+    "Chrome/WebKit tests use isolated synthetic learner/Demo data and emulated viewports; no physical Android or iPhone test.",
+    "No hardware frame-rate benchmark, native keyboard, installed-PWA OS integration or device-specific speech-voice validation. Sound-control reachability is not a guarantee of voice availability.",
+    "Offline verified in local browser contexts at root and subpath, not on a live GitHub Pages deployment in this task.",
+    "This is an approved-art update, not a full architecture rewrite or a certification that every Material 3 rule is met."
+  ],
+  "next_action": "Read HANDOFF.md; continue only from this final package on a separate copy for the next user request. Keep approved 6A/7B. Do not automatically resume the shelved how-to prototype."
 }

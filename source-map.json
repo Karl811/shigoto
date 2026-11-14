@@ -1,5 +1,5 @@
 {
-  "build": "M3.3.20-5S.1",
+  "build": "M3.3.20-5S.2",
   "canonical_sources": {
     "letters.js": "scripts/core.js",
     "app.js": "scripts/core.js",
@@ -134,5 +134,17 @@
     "scripts/habits.js": "Call shinCardFaces when mounting cards",
     "scripts/interaction.js": "Persistent flip; removed obsolete redraw/ghost/press behavior",
     "scripts/extensions.js": "Fit both faces; remember active scroller by side"
+  },
+  "final_approved_art": {
+    "canonical_source": "design-system.js: SHIN_BACK_ART and SHIN_BACK_ART_VIEWBOX",
+    "som": "01 — bình minh, đồng hồ báo thức, cặp sẵn sàng",
+    "5s": "02 — chim cất cánh trên mặt nước trong",
+    "chitieu": "03 — ví tiền và đồng yên",
+    "vandong": "04 — tre vươn từng đốt",
+    "viecko": "05 — chim non tách vỏ trứng",
+    "horenso": "06A — cầu đá trong sương sớm",
+    "giup": "07B — hoa và cánh bướm",
+    "other_seven": "unchanged from M3.3.20-5S.1",
+    "shelved": "M3.3.21-5S-preview visual how-to prototype is not included"
   }
 }
