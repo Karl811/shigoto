@@ -1,3 +1,9 @@
+# Shin routine M.Claude.3.3.28 (final) — "Cách làm" và 5 bài nền tảng bằng hình
+
+**Bản mới nhất: M.Claude.3.3.28 (gốc M3.3.20-5S.2).** Có hình trong "Cách làm" của cả 14 thói quen và trong 5 bài "Nền tảng rèn luyện"; bài Thực tập "Tìm điểm chưa ổn" cho Ngủ, Ăn uống, 5S. Đọc HANDOFF.md mục 0 trước khi sửa.
+
+---
+
 # Shin routine M3.3.20 — bản chốt 5S.2
 
 **Bản tiếp tục chính thức của phiên làm việc: M3.3.20-5S.2. Đọc HANDOFF.md trước khi sửa.** Gói này lấy M3.3.20–5S làm gốc và áp dụng đủ 7 hình mặt sau đã duyệt, chốt phương án 6A và 7B. Không chứa bản thử “Cách làm bằng hình” M3.3.21-5S-preview. Mã chức năng vẫn là M3.3.20; mã cache là M3.3.20-5S.2.

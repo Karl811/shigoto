@@ -247,3 +247,44 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 #shinTypographyRoot .shin-art-back .flow-senpai>span:first-child{display:none}
 #shinTypographyRoot .shin-art-back .flow-senpai :is(small,b){font-size:12px!important;line-height:1.5!important;color:#C7DBFA}
 @media(max-width:359px){#shinTypographyRoot .shin-back-copy{padding:16px 20px}#shinTypographyRoot .flow-card-stage .shin-art-back h2{margin-bottom:16px}}
+
+/* ===== SECTION: how-visual (M.Claude.3.3.22) ===== */
+/* "Cách làm" bằng hình: khung tranh từng bước, tranh đôi, cặp Nên/Tránh, Shin mách nhỏ, hình động, Tìm điểm chưa ổn. */
+.howpg .hv-duo,.howpg .hv-pair,.howpg .hv-key{padding:8px;margin:4px 0 12px}
+.m3-review .f2-how-content .ill.hv-duo svg,.m3-review .f2-how-content .ill.hv-pair svg,.m3-review .f2-how-content .ill.hv-key svg,.howpg .hv-duo svg,.howpg .hv-pair svg,.howpg .hv-key svg{max-width:440px;max-height:none}
+.howpg .hwsteps.hv-steps{display:flex;flex-direction:column;gap:12px}
+.howpg .hws.hv-step{display:block;padding:10px 10px 12px;background:#fff;border:1px solid var(--rule,#E4E8F2);border-radius:18px}
+.hv-step .hv-fig{margin:0 0 10px;background:#F4F6FE;border-radius:14px;padding:4px 6px}
+.hv-step .hv-fig svg{display:block;width:100%;max-width:420px;height:auto;margin:0 auto}
+.hv-step-t{display:flex;gap:12px;align-items:flex-start;padding:0 2px}
+.hv-shin .bob,.hv-shin .wave,.hv-shin .tail,.hv-shin *{animation:none!important}
+.hv-tip{display:flex;gap:10px;align-items:center;background:#FFF7E6;border:1px solid #F4DDA6;border-radius:18px;padding:10px 12px;margin:4px 0 8px}
+.hv-tip-shin{flex:none;width:52px}.hv-tip-shin svg{display:block;width:100%;height:auto}
+.hv-tip p{margin:0;line-height:1.5}.hv-tip b{display:block;font-size:13px;letter-spacing:.04em;color:#946400;text-transform:uppercase}
+/* Hình động squat: ba dáng thay nhau, 4 giây một nhịp. */
+.hv-anim .hv-p1{animation:hvP1 4s infinite}.hv-anim .hv-p2{animation:hvP2 4s infinite}.hv-anim .hv-p3{animation:hvP3 4s infinite}
+@keyframes hvP1{0%,16%{opacity:1}20%,76%{opacity:0}80%,100%{opacity:1}}
+@keyframes hvP2{0%,16%{opacity:0}20%,30%{opacity:1}34%,62%{opacity:0}66%,76%{opacity:1}80%,100%{opacity:0}}
+@keyframes hvP3{0%,30%{opacity:0}34%,62%{opacity:1}66%,100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.hv-anim .hv-p1,.hv-anim .hv-p2{animation:none;opacity:0}.hv-anim .hv-p3{animation:none;opacity:1}}
+/* Tìm điểm chưa ổn */
+.hv-spot{position:relative;margin:6px 0 10px;border-radius:18px;overflow:hidden;background:#F4F6FE;border:1px solid var(--rule,#E4E8F2)}
+.hv-spot svg{display:block;width:100%;height:auto}
+.hv-spot button{position:absolute;border-radius:50%;border:3px solid transparent;background:transparent;padding:0;margin:0;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.hv-spot button:focus-visible{outline:3px solid #2A74DB;outline-offset:2px}
+.hv-spot button.hv-found{border-color:#14A874;background:rgba(20,168,116,.12);box-shadow:0 0 0 3px rgba(255,255,255,.85)}
+.hv-spot button.hv-ok{border-color:#2A74DB;border-style:dashed;background:rgba(42,116,219,.08)}
+.hv-spot button i{position:absolute;right:-8px;top:-8px;width:22px;height:22px;border-radius:50%;background:#14A874;color:#fff;font-style:normal;font-size:13px;font-weight:700;display:grid;place-items:center}
+.hv-spot-count{display:flex;align-items:center;gap:8px;font-weight:600;color:#1D5FD1;margin:2px 0 8px}
+.hv-spot-count span{display:inline-flex;gap:4px}.hv-spot-count span i{width:12px;height:12px;border-radius:50%;background:#DCE3F2}.hv-spot-count span i.on{background:#14A874}
+.hv-spot-list{margin:0 0 8px;padding:0;list-style:none}
+.hv-spot-list li{display:flex;gap:10px;align-items:flex-start;padding:8px 10px;border-radius:14px;background:#E2F7EE;margin:6px 0;line-height:1.45}
+.hv-spot-list li b{flex:none;width:22px;height:22px;border-radius:50%;background:#14A874;color:#fff;display:grid;place-items:center;font-size:13px}
+.hv-spot-note{background:#E5EFFC;border-radius:14px;padding:8px 12px;margin:6px 0;line-height:1.45}
+/* Hình động thở (Cảm xúc, bước 2): vòng phồng 4 giây, xẹp 4 giây. */
+.hv-anim-breath .hv-breath{transform-box:fill-box;transform-origin:center;animation:hvBreath 8s ease-in-out infinite}
+.hv-anim-breath .hv-in{animation:hvIn 8s infinite}.hv-anim-breath .hv-out{animation:hvOut 8s infinite}
+@keyframes hvBreath{0%,100%{transform:scale(.8)}50%{transform:scale(1.12)}}
+@keyframes hvIn{0%,46%{opacity:1}50%,96%{opacity:0}100%{opacity:1}}
+@keyframes hvOut{0%,46%{opacity:0}50%,96%{opacity:1}100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.hv-anim-breath .hv-breath,.hv-anim-breath .hv-in{animation:none}.hv-anim-breath .hv-out{animation:none;opacity:0}}

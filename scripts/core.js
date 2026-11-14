@@ -93,7 +93,7 @@ function treeLettersSVG37(stage,stems,sx,order,interactive){
    KAIZEN MỖI NGÀY · TQ02
    Một file HTML, dữ liệu lưu trong trình duyệt của từng máy.
    ========================================================= */
-var APP_VER = 'M3.3.20';
+var APP_VER = 'M.Claude.3.3.28';
 var APP_NAME = 'Shin routine';
 var KEY = 'shin-curriculum16-v1-data', KEY_DEMO = 'shin-curriculum16-v1-demo', KEY_MODE = 'shin-curriculum16-v1-mode';
 var DEMO_CLASS = 'DEMO-KZ';
@@ -144,8 +144,7 @@ var HABITS = [
   quiz:{sc:'Sáng sớm, bạn đang bưng thùng hàng thì gặp tổ trưởng người Nhật ở hành lang. Cách chào nào hợp nhất?',
         o:['Dừng lại, nhìn anh ấy, nói おはようございます rồi cúi nhẹ.','Đặt thùng xuống, cúi thật sâu 45° thật lâu rồi mới nói, vì cấp trên cần được chào kỹ nhất.','Gật đầu thật nhanh rồi đi tiếp, vì đang bận tay nên tổ trưởng sẽ hiểu.'], ok:0,
         ex:'Chào hằng ngày chỉ cần cúi khoảng 15°, nói trước rồi cúi. Cúi 45° dành cho lúc xin lỗi hay cảm ơn rất sâu sắc.'},
-  prov:{j:'実るほど頭を垂れる稲穂かな', r:'Minoru hodo kōbe o tareru inaho kana', v:'Lúa càng chín, bông càng cúi đầu.'},
-  quote:{q:'Lúc nào cũng phải cười.', by:'Thầy Lê Long Sơn'}},
+  prov:{j:'実るほど頭を垂れる稲穂かな', r:'Minoru hodo kōbe o tareru inaho kana', v:'Lúa càng chín, bông càng cúi đầu.'},},
 
  {id:'som', poem:['Sớm hơn năm phút','Không phải vội vàng','Ca làm sẵn sàng','Mọi việc nhẹ nhàng'], who:['người đúng giờ như người Nhật', 'người luôn sẵn sàng'], g:1, s:'Đúng giờ', t:'Có mặt trước 5 phút', full:true, combos:['C02','C13','C09'],
   tiers:['Có mặt ở lớp trước giờ học 5 phút.','Có mặt trước 15 phút, sách vở bày sẵn.','Có mặt trước 15–30 phút, sẵn sàng như vào ca ở Nhật.'],
@@ -177,8 +176,7 @@ var HABITS = [
   quiz:{sc:'Tổ trưởng dặn nhanh 3 việc trong lúc đang bận. Bạn làm gì?',
         o:['Gật đầu và cố nhớ trong đầu, vì rút sổ ra lúc anh ấy bận sẽ làm mất thời gian của anh ấy.','Chờ lúc anh ấy rảnh, nhờ nhắn lại cả 3 việc qua tin nhắn cho chắc.','Rút sổ ghi từ khóa từng việc, rồi đọc lại để anh ấy xác nhận.'], ok:2,
         ex:'Ghi ngay và đọc lại chỉ mất vài giây, nhưng giúp cả hai chắc chắn hiểu đúng. Người Nhật rất quý việc xác nhận lại.'},
-  prov:{j:'記憶より記録', r:'Kioku yori kiroku', v:'Ghi lại chắc hơn cố nhớ.'},
-  quote:{q:'Mình phải viết nó ra thì lúc đó mình bắt đầu mới hình thành.', by:'Thầy Lê Long Sơn'}},
+  prov:{j:'記憶より記録', r:'Kioku yori kiroku', v:'Ghi lại chắc hơn cố nhớ.'},},
 
  {id:'5s', poem:['Dùng xong trả chỗ','Một phút mỗi ngày','Phòng gọn, bàn ngay','Lòng cũng nhẹ thay'], who:['người gọn gàng, chuyên nghiệp', 'người được tin giao việc'], g:1, s:'5S', t:'5S một phút', full:true, combos:['C02','C23','C13'],
   tiers:['Trước khi rời chỗ, cất 1 món về đúng chỗ của nó.','Dành 1 phút dọn bàn học hoặc giường, xếp giày mũi hướng ra.','5S góc của mình và cả chỗ dùng chung mỗi ngày.'],
@@ -243,8 +241,7 @@ var HABITS = [
   quiz:{sc:'Tối qua bạn hứa học 50 từ nhưng chỉ học được 10. Hôm nay hứa thế nào?',
         o:['Hứa học 90 từ để bù cho 40 từ còn thiếu hôm qua, vậy mới đúng là giữ lời.','Thôi không hứa nữa, học được bao nhiêu thì học cho đỡ áp lực.','Hứa học 15 từ, vừa sức để chắc chắn giữ được.'], ok:2,
         ex:'Giữ được lời mới là điều quan trọng. Hứa vừa sức rồi tăng dần, bạn sẽ tin vào lời mình hơn.'},
-  prov:{j:'千里の道も一歩から', r:'Senri no michi mo ippo kara', v:'Đường nghìn dặm bắt đầu từ một bước.'},
-  quote:{q:'Chữ tín là đơn vị có giá trị hoán đổi cao nhất trong cuộc sống mỗi người.', by:'Thầy Lê Long Sơn'}},
+  prov:{j:'千里の道も一歩から', r:'Senri no michi mo ippo kara', v:'Đường nghìn dặm bắt đầu từ một bước.'},},
 
  /* ===== Nhóm 2 · Sức khỏe và làm chủ bản thân (bản nháp) ===== */
  {id:'5phut', who:['người không phí thời gian', 'người tiến bộ mỗi ngày'], g:2, s:'5 phút chờ', t:'Tận dụng 5 phút chờ', combos:['C09','C20','C24'],
@@ -284,8 +281,7 @@ var HABITS = [
  {id:'tiengnhat', who:['người tự tin nói tiếng Nhật'], g:3, s:'Tiếng Nhật', t:'Mạnh dạn nói tiếng Nhật', combos:['C07','C24','C12'],
   tiers:['Nói 1 câu tiếng Nhật với thầy cô hoặc bạn mỗi ngày.','Hỏi 1 câu bằng tiếng Nhật mỗi ngày.','Báo cáo ngắn một việc bằng tiếng Nhật.'],
   act:'nói 1 câu tiếng Nhật', anchors:['gặp thầy cô tiếng Nhật','chào bạn cùng phòng buổi sáng','xin phép vào lớp'],
-  jp:{j:'日本語で話してもいいですか', r:'Nihongo de hanashitemo ii desu ka', v:'Mình nói bằng tiếng Nhật được không?'},
-  quote:{q:'Một câu nói lên 2, 30 lần. Nó mới vô được tiềm thức.', by:'Thầy Lê Long Sơn'}},
+  jp:{j:'日本語で話してもいいですか', r:'Nihongo de hanashitemo ii desu ka', v:'Mình nói bằng tiếng Nhật được không?'},},
  {id:'quansat', who:['người tinh ý, hiểu chuyện'], g:3, s:'Quan sát', t:'Quan sát và hỏi 1 câu', combos:['C06','C16','C22','C24'],
   tiers:['Ghi 1 điều mình để ý thấy hôm nay.','Hỏi thêm 1 câu “tại sao” về điều đó.','Kiểm chứng một tin trước khi tin hoặc chia sẻ.'],
   act:'ghi 1 điều mình để ý thấy', anchors:['đi từ lớp về ký túc xá','đọc một tin trên mạng','check-in tối'],
@@ -293,8 +289,7 @@ var HABITS = [
  {id:'viecko', wk:1, cond:true, mk:'Chọn một việc mình hơi ngại và nói: “Em xin làm việc này ạ.”', who:['người không ngại khó'], g:3, s:'Việc khó', t:'Xung phong việc khó', combos:['C07','C17','C08'],
   tiers:['Mỗi tuần nhận 1 việc mình hơi ngại.','Làm việc đó tới cùng, không bỏ dở.','Đề xuất 1 cải tiến nhỏ cho lớp hoặc phòng.'],
   act:'giơ tay nhận 1 việc mình hơi ngại', anchors:['thầy cô hỏi “ai làm?”','lớp phân công trực nhật'],
-  jp:{j:'やってみます', r:'Yatte mimasu', v:'Em sẽ thử làm'},
-  quote:{q:'Thử thách chính là người thầy vĩ đại của cuộc đời mỗi người.', by:'Thầy Lê Long Sơn'}},
+  jp:{j:'やってみます', r:'Yatte mimasu', v:'Em sẽ thử làm'},},
 
  /* ===== Nhóm 4 · Làm việc cùng người khác (bản nháp) ===== */
  {id:'horenso', cond:true, mk:'Báo một việc nhỏ cho thầy cô hoặc tổ trưởng: “Em xin báo, việc … đã xong ạ.”', who:['người làm việc chuyên nghiệp'], g:4, s:'Hō-Ren-Sō', t:'Hō-Ren-Sō: báo, liên, bàn', combos:['C11','C23','C13'],
@@ -2562,8 +2557,8 @@ var LESSONS = [
        ['shin','think','Rồi anh lấy lại nhịp bằng cách nào?'],
        ['s',3,'hi','Anh hạ xuống 10 phút: về đến nơi là mở sách, đọc vài từ. Có hôm 10 phút thành nửa tiếng. Không cần học nhiều, chỉ cần học đều.'],
        ['shin','cheer','Vậy việc nhỏ không phải để làm ít, mà để không bỏ!']],
-  app:['Ô “Tôi sẽ…” trên mỗi thẻ là việc nhỏ của bạn. Cấp Tập sự 7 ngày đầu chỉ cần việc nhỏ đó.','Lên cấp, app gợi ý nâng việc lên một chút. Bạn chọn nhận hoặc giữ.'],
-  todo:'Hôm nay: xem lại ô “Tôi sẽ…” trên thẻ của bạn. Việc nào ngày mệt khó làm thì sửa nhỏ lại.', go:['deck','Xem thẻ của tôi']},
+  app:['Dòng “Mình sẽ…” trên mỗi thẻ là việc nhỏ của bạn. Cấp Tập sự 7 ngày đầu chỉ cần việc nhỏ đó.','Lên cấp, app gợi ý nâng việc lên một chút. Bạn chọn nhận hoặc giữ.'],
+  todo:'Hôm nay: xem lại dòng “Mình sẽ…” trên thẻ của bạn. Việc nào ngày mệt khó làm thì sửa nhỏ lại.', go:['deck','Xem thẻ của tôi']},
  {id:'b2', n:2, t:'Gắn vào việc sẵn có', icon:'tia', g:1, kind:'cue',
   c1:'<div class="hw__k">Ý chính</div><p class="lsbig">Đừng chờ lúc rảnh. Lúc rảnh hiếm khi tự đến.</p>'+
      '<p>Mỗi ngày bạn đã có sẵn nhiều việc lặp lại: bước qua cổng trường, vào lớp, ăn trưa, đi làm thêm về, đánh răng buổi tối.</p>'+
@@ -2579,14 +2574,14 @@ var LESSONS = [
  {id:'b3', n:3, t:'Sắp xếp quanh mình', icon:'nang', g:3, kind:'sort',
   c1:'<div class="hw__k">Ý chính</div><p class="lsbig">Việc tốt: để gần, dễ thấy. Việc chưa tốt: để xa, mất công.</p>'+
      '<p>Đừng chỉ dựa vào cố gắng. Sắp xếp chỗ ở, chỗ học để việc tốt dễ làm hơn. Sổ memo trong túi áo thì dễ ghi. Điện thoại nằm cạnh sách thì dễ lướt.</p>'+
-     '<p>Người xung quanh cũng là môi trường.</p><div class="quote">“Bệnh lười nó có lây nha.”<small>Thầy Lê Long Sơn</small></div>'+
+     '<p>Người xung quanh cũng là môi trường. Thói lười có thể lây sang nhau.</p>'+
      '<p>Siêng năng cũng lây. Ngồi gần bạn chăm, mình cũng chăm hơn.</p>'+
      '<div class="lsq">Ở chỗ bạn đang sống, thứ gì đang làm việc tốt khó hơn?</div>',
   dlg:[['s',0,'smile','Phòng anh ở Nhật có 4 người. Tụi anh thống nhất: ngoài giờ gọi về nhà thì nói tiếng Nhật với nhau. Ai quên thì bỏ 100 yên vào hộp chung.'],
        ['shin','think','Vậy có căng quá không anh?'],
        ['s',0,'hi','Không căng đâu, vì cả phòng cùng làm. Ngày nào cũng nghe tiếng Nhật. Ba người trong phòng đỗ N2 ngay khi còn đang thực tập.'],
        ['shin','cheer','Môi trường không chỉ là đồ đạc. Còn là những người ở cạnh mình!']],
-  app:['Thẻ 5S một phút: mỗi đồ có chỗ của nó, cần là thấy.','Thẻ Ngủ sớm: cắm sạc điện thoại xa giường. Thẻ Giảm dần: đổi việc chưa tốt bằng việc thay thế.'],
+  app:['Thẻ 5S - Gọn gàng và ngăn nắp: mỗi đồ có chỗ của nó, cần là thấy.','Thẻ Ngủ đủ giấc: cắm sạc điện thoại xa giường.'],
   todo:'Tối nay: đổi chỗ một món đồ để việc tốt dễ làm hơn.', go:['card:5s','Xem thẻ 5S']},
  {id:'b4', n:4, t:'Đừng để hai ngày liền trống', icon:'lua', g:6, kind:'chain',
   c1:'<div class="hw__k">Ý chính</div><p class="lsbig">Lỡ một ngày là chuyện bình thường. Lỡ hai ngày liền là bắt đầu một thói quen mới: thói quen bỏ.</p>'+
@@ -2597,13 +2592,13 @@ var LESSONS = [
        ['shin','worry','Điều gì giúp chị không bỏ?'],
        ['s',2,'hi','Chị không cố học bù gấp đôi nữa. Hôm nào mệt thì chỉ làm 1 trang đề. Miễn là không để hai ngày liền trống. Rồi cũng đến ngày chị đỗ.'],
        ['shin','cheer','Ngã bảy lần, đứng dậy tám lần. Quan trọng là lần đứng dậy!']],
-  app:['Chuỗi ngày: lỡ 1 ngày chưa mất chuỗi, lỡ 2 ngày liền mới về 0.','Quên đóng dấu thì ghi bù được trong 3 ngày. Thói quen duy trì 7 ngày không làm sẽ thành “mạng nhện”.','Thẻ “khi gặp dịp” (như Nhận góp ý) tính theo số lần: 3, 6, 12 lần. Chọn “Không gặp dịp” thì không bị tính là bỏ lỡ.'],
+  app:['Chuỗi ngày: lỡ 1 ngày chưa mất chuỗi, lỡ 2 ngày liền mới về 0.','Quên đóng dấu thì ghi bù được trong 3 ngày. Thói quen duy trì 7 ngày không làm sẽ thành “mạng nhện”.','Thẻ “khi gặp dịp” (như Lắng nghe và sửa sai) tính theo số lần: 3, 6, 12 lần. Chọn “Không gặp dịp” thì không bị tính là bỏ lỡ.'],
   todo:'Nếu hôm qua bạn lỡ, hôm nay làm phiên bản nhỏ nhất của thẻ đó.', go:['streak','Xem chuỗi ngày']},
  {id:'b5', n:5, t:'Mỗi con dấu là một lá phiếu', icon:'tim', g:5, kind:'vote',
   c1:'<div class="hw__k">Ý chính</div><p class="lsbig">Đừng chỉ đặt mục tiêu “làm gì”. Hãy chọn “mình muốn trở thành người như thế nào”.</p>'+
      '<p>“Mình muốn dậy sớm” thì dễ bỏ. “Mình là người đúng giờ” thì khó bỏ hơn, vì bỏ là đi ngược với chính mình.</p>'+
      '<p>Mỗi lần làm là một lá phiếu cho con người đó. Không cần hoàn hảo, chỉ cần tuần sau nhiều phiếu hơn tuần trước.</p>'+
-     '<div class="quote">“Người ta muốn học, người ta học chứ không ai dạy hết.”<small>Thầy Lê Long Sơn</small></div>'+
+     '<p>Khi đã thật sự muốn, mình tự học, tự làm mà không cần ai nhắc.</p>'+
      '<div class="ladder"><span>Bị</span><span>Phải</span><span>Muốn</span><span>Thích</span><span>Đam mê</span></div>'+
      '<div class="lsq">Với thói quen bạn đang rèn, bạn đang ở bậc nào? 5–10 năm nữa, bạn muốn người khác nhắc đến mình bằng câu nào?</div>',
   dlg:[['s',4,'smile','Ở Nhật, công ty có giờ tự học buổi tối, không ai đứng giám sát. Có bạn hay vào trễ 5–10 phút vì nghĩ không ai thấy.'],

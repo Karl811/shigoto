@@ -6,6 +6,7 @@
 Dữ liệu nằm trên thiết bị/trình duyệt. Mã lớp Demo-KZ dùng dữ liệu minh họa. Khác địa chỉ web có thể khác vùng dữ liệu. Đừng suy luận rằng dữ liệu đã mất chỉ vì chuyển sang địa chỉ xem thử khác.
 
 ## Mốc hiện tại
+- **M.Claude.3.3.28 (bản final, đã bỏ mọi trích dẫn lời Thầy):** "Cách làm" bằng hình cho đủ 14/14 thói quen và 5 bài "Nền tảng rèn luyện" (mục LV trong how-visual.js) trong `scripts/how-visual.js`; xem mục 0 của HANDOFF.md. Các dòng dưới mô tả gốc M3.3.20-5S.2.
 - Giao diện/chức năng: M3.3.20.
 - Gói bảo trì/cache: **M3.3.20-5S.2 — bản chốt**, ngày 14/11/2026; 52 tệp.
 - Gốc trực tiếp của lần này: M3.3.20-5S (cache 5S.1). Gốc lịch sử của lần dọn 5S là M3.3.19 GitHub 79 tệp.
@@ -29,6 +30,7 @@ Dữ liệu nằm trên thiết bị/trình duyệt. Mã lớp Demo-KZ dùng d�
 | styles/components.css | Thành phần M3 nền và bố cục chung |
 | styles/habits.css | Thói quen, thẻ, hành trình, check-in, thư viện, cử chỉ |
 | styles/extensions.css | Bố cục tinh chỉnh và công cụ thở |
+| scripts/how-visual.js | M.Claude.3.3.22: hình trong “Cách làm” (tranh đôi, khung bước, cặp Nên/Tránh, Shin mách nhỏ, hình động) và Thực tập type spot; bọc openHow/prDraw/prAct |
 | boot.js | Chỉ khởi động sau khi các phần mở rộng đã đăng ký |
 | habit-game.html, assets/game/, design-game.css | Tài liệu iframe game riêng; không cộng tiến độ rèn khi chơi |
 | sw.js, manifest.webmanifest | Cache offline và cài PWA |
@@ -36,7 +38,7 @@ Dữ liệu nằm trên thiết bị/trình duyệt. Mã lớp Demo-KZ dùng d�
 Trong các tệp đã gom, tìm `SECTION: tên-tệp-cũ` để đi đúng vị trí. source-map.json ghi đầy đủ đường chuyển tệp. Nội dung hiện hành 14 thói quen nằm ở SECTION curriculum14.js; không lấy danh mục nền cũ trong core.js làm chuẩn duy nhất.
 
 ## Phụ thuộc quan trọng
-App dùng global và các hàm bọc: phần sau có thể lưu hàm trước rồi gọi lại nó. Giữ thứ tự core → interface → habits → interaction → extensions → design-system → boot. Đây vẫn là kiến trúc mở rộng theo lớp, chưa chuyển thành module độc lập. Đừng xóa một hàm chỉ vì thấy nó bị gán lại.
+App dùng global và các hàm bọc: phần sau có thể lưu hàm trước rồi gọi lại nó. Giữ thứ tự core → interface → habits → interaction → extensions → design-system → how-visual → boot. Đây vẫn là kiến trúc mở rộng theo lớp, chưa chuyển thành module độc lập. Đừng xóa một hàm chỉ vì thấy nó bị gán lại.
 
 Các vùng chưa dọn triệt để: các lớp CSS nền và nhiều hàm bọc còn phụ thuộc nhau; một số định nghĩa nội dung cũ còn làm nền cho khôi phục/bài học hoặc được biến đổi thành danh mục mới. Không tuyên bố rằng mã cũ đã được loại hết. Muốn làm phẳng từng luồng, cần truy vết hàm bọc và đối chiếu đầy đủ riêng cho luồng đó.
 

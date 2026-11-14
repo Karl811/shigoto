@@ -3,6 +3,7 @@
 Read HANDOFF.md, README.md, AI_CONTEXT.md and CHANGELOG.md before editing. Claude should follow these instructions too. This file is repository guidance, not app content.
 
 ## Baseline and scope
+- Current build: **M.Claude.3.3.28** (final of the visual how-to work; APP_VER and cache). Do not add quotes attributed to Thầy Lê Long Sơn anywhere in the app. It reopens the visual how-to work as PA2, rebuilt from scratch in the original illSVG/person style, in scripts/how-visual.js (batch 1: vandong, ngu, chitieu, horenso; batch 2: anuong, camxuc, giup, 5phut; batch 3: 5s, som, chao; batch 4: memo, xinloi, viecko — all 14 done; the 5 lessons b1–b5 are illustrated via LV (wraps lsDialog/lsApp, inserts into LESSONS[].c1 once); draw hands only with arm()/hand(); old ill[] images are kept automatically). Speech bubbles must never overlap a character. Balance male/female figures; duo tags default Ở TRƯỜNG/Ở NHẬT. Continue batches there; still do not import the shelved M3.3.21 prototype.
 - Feature baseline: Shin routine M3.3.20, 14 habits. This package is the final 5S.2 edition with the seven revised illustrations approved by the user, including 6A and 7B. Curriculum and progress calculations remain unchanged. The M3.3.21 visual how-to prototype was shelved; do not import or resume it without a new user request.
 - Work from this exact folder/ZIP, not from similarly named older releases. Start each change on a separate copy or branch.
 - Make the user's requested change; avoid unrelated UI, curriculum or data changes.
@@ -24,7 +25,7 @@ Read HANDOFF.md, README.md, AI_CONTEXT.md and CHANGELOG.md before editing. Claud
 - Tests must use isolated synthetic/Demo data, never the user's live learner profile.
 
 ## Releases and verification
-- Keep APP_VER in scripts/core.js as the feature version (M3.3.20). sw.js VERSION and all local JS/CSS ?v= tags identify the cache build and must agree (currently M3.3.20-5S.2).
+- Keep APP_VER in scripts/core.js as the feature version (currently M.Claude.3.3.28). sw.js VERSION and all local JS/CSS ?v= tags identify the cache build and must agree (currently M.Claude.3.3.28).
 - Register new offline assets in sw.js CORE. Keep URLs relative so GitHub Pages subdirectories work. Keep licenses with assets.
 - Run node tools/verify.mjs. Check both pages (index and habit-game), fresh/returning learner, both card faces, all 14 how-to flows, 5 lessons, custom card, goal 1–7, note/check-in drafts, save/undo, Back, import/export and offline reload.
 - Prioritize 320–430px phone widths. Also test long text, reduced height/keyboard, 200% zoom, Chrome and WebKit. State honestly whether physical phones were used.
